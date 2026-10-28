@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-28-import-1",
+  "version": "2026-10-28-import-2",
   "weekLabel": "Dienstag bis Freitag · 27.–30. Oktober 2026",
   "dateNote": "Die Kalenderdaten wurden aus dem Chatkontext erschlossen; die Wochentage sind vereinbart.",
   "recipes": [
@@ -64,21 +64,53 @@
       "day": "Mittwoch",
       "date": "2026-10-28",
       "name": "Schupfnudelpfanne mit Schinken und Zucchini",
-      "time": null,
+      "time": "25–30 Minuten",
       "servings": "2 Erwachsene + 1 Kind",
-      "status": "planned",
+      "status": "adapted",
       "ingredients": [
         "600 g Schupfnudeln",
         "100 g Kochschinken",
-        "1 Zucchini"
+        "1 Zucchini",
+        "200 ml Kochsahne (neu zugeordnet)",
+        "1 Knoblauchzehe (neu ergänzt)",
+        "10 g Butter (neu ergänzt)",
+        "1 EL Rapsöl (neu ergänzt)",
+        "3 EL Wasser zum Dünsten, bei Bedarf etwas mehr",
+        "Salz und Pfeffer nach Geschmack"
       ],
-      "steps": [],
+      "steps": [
+        [
+          "Alles klein schneiden · etwa 5 Minuten",
+          "Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder grob raspeln. 100 g Kochschinken klein schneiden. 1 Knoblauchzehe schälen und fein hacken. 600 g Schupfnudeln bereitstellen."
+        ],
+        [
+          "Schupfnudeln anbraten · 6–8 Minuten",
+          "1 EL Rapsöl und 10 g Butter in einer großen Pfanne bei mittlerer Hitze (etwa Stufe 5–6 von 9) erhitzen. Schupfnudeln nach Packungsangabe rundherum leicht goldbraun braten. Auf einen Teller geben. Bei wenig Platz in zwei Portionen braten."
+        ],
+        [
+          "Zucchini sehr weich dünsten · 6–8 Minuten",
+          "Zucchini in dieselbe Pfanne geben und 2 Minuten bei Stufe 4–5 von 9 anschwitzen. 3 EL Wasser dazugeben und den Deckel auflegen. 4–6 Minuten weich dünsten. Prüfen: Die Würfel sollen sich leicht mit einer Gabel zerdrücken lassen. Falls nötig etwas Wasser ergänzen und länger dünsten."
+        ],
+        [
+          "Schinken und Knoblauch dazugeben · 1 Minute",
+          "Kochschinken und Knoblauch zur weichen Zucchini geben und etwa 1 Minute unter Rühren erwärmen. Knoblauch nicht dunkel werden lassen."
+        ],
+        [
+          "Cremige Soße · 3–4 Minuten",
+          "200 ml Kochsahne dazugeben und bei niedriger bis mittlerer Hitze 3–4 Minuten sanft köcheln lassen. Mild mit Salz und Pfeffer abschmecken; der Schinken bringt bereits Salz mit. Bei zu dicker Soße 1–2 EL Wasser ergänzen."
+        ],
+        [
+          "Vermengen und servieren · 2 Minuten",
+          "Schupfnudeln zurück in die Pfanne geben, vorsichtig mit der Soße mischen und etwa 2 Minuten vollständig erhitzen. Nach Packungsangabe sicherstellen, dass die Schupfnudeln fertig gegart sind. Mit reichlich cremiger Soße servieren. Guten Appetit!"
+        ]
+      ],
       "planningNote": "Zucchini fein würfeln oder raspeln und weich garen. Bisher nur als Gericht mit diesen Grundzutaten geplant.",
-      "missingFields": [
-        "Weitere Zutaten und Mengen",
-        "Gewürze",
-        "Garzeiten",
-        "Vollständige Kochschritte"
+      "missingFields": [],
+      "sourceNote": "Aus der vereinbarten groben Planung neu ausgearbeitet am 28.10.2026. Zusätzliche Mengen und Schritte sind neue Ergänzungen.",
+      "originalIngredients": [
+        "600 g Schupfnudeln",
+        "100 g Kochschinken",
+        "1 Zucchini"
       ]
     },
     {
@@ -140,22 +172,61 @@
       "day": "Freitag",
       "date": "2026-10-30",
       "name": "Cremige Tomaten-Nudelpfanne mit Hähnchen und Zucchini",
-      "time": null,
+      "time": "35–40 Minuten",
       "servings": "3 Erwachsene + 1 Kind",
-      "status": "planned",
+      "status": "adapted",
       "ingredients": [
         "450 g Penne oder Fusilli",
         "400 g Hähnchenbrust",
-        "1 kleine Zucchini"
+        "1 kleine Zucchini",
+        "700 g passierte Tomaten (neu diesem Rezept zugeordnet)",
+        "200 ml Kochsahne (neu zugeordnet)",
+        "50 g Frischkäse natur (neu zugeordnet)",
+        "1 Zwiebel (neu ergänzt)",
+        "1 Knoblauchzehe (neu ergänzt)",
+        "1 EL Rapsöl (neu ergänzt)",
+        "1 TL italienische Kräuter (neu ergänzt)",
+        "3 EL Wasser zum Dünsten, bei Bedarf mehr",
+        "Salz und Pfeffer nach Geschmack",
+        "Wasser und etwas Salz zum Nudelkochen"
       ],
-      "steps": [],
+      "steps": [
+        [
+          "Vorbereiten · 5–7 Minuten",
+          "Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder raspeln. Zwiebel und Knoblauch schälen und fein hacken. 400 g Hähnchenbrust mit separatem Brett und Messer in kleine mundgerechte Stücke schneiden. Nudelwasser in einem großen Topf aufsetzen."
+        ],
+        [
+          "Hähnchen anbraten · 4–5 Minuten",
+          "1 EL Rapsöl in einer großen, tiefen Pfanne bei Herdstufe 6 von 9 erhitzen. Hähnchenstücke rundherum 4–5 Minuten leicht bräunen und auf einen Teller geben. Das Fleisch gart später in der Soße vollständig fertig."
+        ],
+        [
+          "Gemüse weich dünsten · 8–10 Minuten",
+          "Hitze auf Stufe 4–5 von 9 reduzieren. Zwiebel und Zucchini im Bratensatz 3 Minuten anschwitzen. 3 EL Wasser ergänzen, Deckel auflegen und 5–7 Minuten weich dünsten. Falls nötig Wasser ergänzen und länger garen. Knoblauch zuletzt etwa 30 Sekunden mitdünsten."
+        ],
+        [
+          "Tomatensoße köcheln · 10 Minuten",
+          "700 g passierte Tomaten und 1 TL italienische Kräuter zum weichen Gemüse geben. Vorsichtig mit Salz und Pfeffer würzen. Bei niedriger bis mittlerer Hitze 10 Minuten sanft köcheln und gelegentlich umrühren."
+        ],
+        [
+          "Nudeln parallel kochen",
+          "Kochendes Nudelwasser leicht salzen. 450 g Penne oder Fusilli nach Packungsanleitung garen. Vor dem Abgießen eine Tasse Nudelwasser auffangen."
+        ],
+        [
+          "Cremig verfeinern und Hähnchen fertig garen · 5–7 Minuten",
+          "200 ml Kochsahne und 50 g Frischkäse in die Tomatensoße rühren, bis der Frischkäse gelöst ist. Hähnchen samt Fleischsaft zugeben und 5–7 Minuten sanft köcheln. Vollständig durchgaren (mindestens 74 °C Kerntemperatur). Bei größeren Stücken länger garen."
+        ],
+        [
+          "Nudeln untermischen und servieren",
+          "Nudeln zur fertigen Soße geben und gut mischen. Bei Bedarf etwas aufgefangenes Nudelwasser ergänzen, bis die Soße cremig an den Nudeln haftet. Mild abschmecken und servieren. Guten Appetit!"
+        ]
+      ],
       "planningNote": "Cremige Tomatensoße, bevorzugt aus passierten Tomaten. Zucchini sehr klein schneiden oder raspeln und weich garen. Die Wochen-Einkaufsmengen für Tomaten, Sahne und Frischkäse waren noch nicht verbindlich auf dieses Rezept verteilt.",
-      "missingFields": [
-        "Tomatenmenge für dieses Rezept",
-        "Sahne-/Frischkäsemenge für dieses Rezept",
-        "Weitere Zutaten und Gewürze",
-        "Garzeiten",
-        "Vollständige Kochschritte"
+      "missingFields": [],
+      "sourceNote": "Aus der vereinbarten groben Planung neu ausgearbeitet am 28.10.2026. Tomaten, Sahne und Frischkäse wurden für diese neue Fassung ausdrücklich zugeordnet; keine ursprünglichen Rezeptmengen.",
+      "originalIngredients": [
+        "450 g Penne oder Fusilli",
+        "400 g Hähnchenbrust",
+        "1 kleine Zucchini"
       ]
     }
   ]

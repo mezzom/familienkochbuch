@@ -15,13 +15,13 @@ async function start(){
  function load(){const s=saved[r.id]||{};step=Number.isInteger(s.step)?Math.max(0,Math.min(s.step,Math.max(0,r.steps.length-1))):0;checks=r.ingredients.map((_,i)=>Array.isArray(s.checks)&&s.checks[i]===true);done=s.done===true&&step===r.steps.length-1;}
  function count(){$('checked').textContent=checks.filter(Boolean).length+' von '+checks.length+' abgehakt · '+r.servings+(r.status==='planned'?' · Grundzutaten':'');}
  function renderStep(){
-  const complete=r.status==='complete'&&r.steps.length>0,n=r.steps.length,p=complete?(done?100:Math.round(step/n*100)):0;
-  $('count').textContent=complete?'Schritt '+(step+1)+' von '+n:'Geplant · Rezept noch unvollständig';
+  const complete=r.status!=='planned'&&r.steps.length>0,n=r.steps.length,p=complete?(done?100:Math.round(step/n*100)):0;
+  $('count').textContent=complete?'Schritt '+(step+1)+' von '+n+(r.status==='adapted'?' · neu ausgearbeitet':''):'Geplant · Rezept noch unvollständig';
   $('title').textContent=complete?r.steps[step][0]:'Bisher nur grob geplant';
   $('instruction').textContent=complete?r.steps[step][1]:r.planningNote;
   $('hint').className=complete?'muted':'notice';
   $('hint').textContent=complete?(step<n-1?'Als Nächstes: '+r.steps[step+1][0]:'Der letzte Schritt – gleich wird gegessen.'):'Noch offen: '+r.missingFields.join(' · ')+'. Die angezeigten Grundzutaten sind noch keine vollständige Zutatenliste.';
-  $('done').textContent=done?'✓ Geschafft! Lasst es euch schmecken.':'';
+  $('done').textContent=done?'✓ Geschafft! Lasst es euch schmecken.':r.status==='adapted'?'Aus eurer Planung neu ausgearbeitet · zusätzliche Mengen sind links gekennzeichnet.':'';
   $('prev').disabled=!complete||step===0;$('next').disabled=!complete||done;
   $('next').textContent=!complete?'Anleitung noch offen':done?'Fertig ✓':step===n-1?'Kochen abschließen ✓':'Weiter →';
   $('progress').style.width=p+'%';document.querySelector('[role=progressbar]').setAttribute('aria-valuenow',p);
@@ -33,10 +33,10 @@ async function start(){
   r.ingredients.forEach((text,i)=>{const li=document.createElement('li'),label=document.createElement('label'),input=document.createElement('input'),span=document.createElement('span');input.type='checkbox';input.checked=checks[i];span.textContent=text;input.onchange=()=>{checks[i]=input.checked;count();save();};label.append(input,span);li.append(label);$('ingredients').append(li);});
   count();renderStep();save();
  }
- recipes.forEach(x=>{const option=document.createElement('option');option.value=x.id;option.textContent=x.day+' · '+x.name+(x.status==='planned'?' (geplant)':'');$('recipe').append(option);});
+ recipes.forEach(x=>{const option=document.createElement('option');option.value=x.id;option.textContent=x.day+' · '+x.name+(x.status==='planned'?' (geplant)':x.status==='adapted'?' (ergänzt)':'');$('recipe').append(option);});
  $('recipe').onchange=()=>{r=recipes.find(x=>x.id===$('recipe').value);load();render();};
  $('prev').onclick=()=>{if(step>0){step--;done=false;renderStep();save();$('title').parentElement.scrollTop=0;}};
- $('next').onclick=()=>{if(r.status!=='complete')return;if(step<r.steps.length-1)step++;else done=true;renderStep();save();$('title').parentElement.scrollTop=0;};
+ $('next').onclick=()=>{if(r.status==='planned')return;if(step<r.steps.length-1)step++;else done=true;renderStep();save();$('title').parentElement.scrollTop=0;};
  $('reset').onclick=()=>$('dialog').showModal();$('cancel').onclick=()=>$('dialog').close();
  $('confirm').onclick=()=>{step=0;checks=r.ingredients.map(()=>false);done=false;render();$('dialog').close();};
  $('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch(e){$('status').textContent='Vollbild wird von diesem Browser nicht unterstützt.';}};
