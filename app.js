@@ -13,7 +13,7 @@ async function start(){
  function weekOf(recipe){return weeks.find(w=>w.recipes.includes(recipe));}
  function save(){saved.active=r.id;saved[r.id]={step,checks,done};try{localStorage.setItem(key,JSON.stringify(saved));}catch(e){storage=false;}$('status').textContent=storage?'Dein Fortschritt wird automatisch gespeichert.':'Browserspeicher nicht verfügbar: Fortschritt nur für diese Sitzung.';}
  function load(){const s=saved[r.id]||{};step=Number.isInteger(s.step)?Math.max(0,Math.min(s.step,Math.max(0,r.steps.length-1))):0;checks=r.ingredients.map((_,i)=>Array.isArray(s.checks)&&s.checks[i]===true);done=s.done===true&&step===r.steps.length-1;}
- function count(){$('checked').textContent=checks.filter(Boolean).length+' von '+checks.length+' abgehakt · '+r.servings+(r.status==='planned'?' · Grundzutaten':'');}
+ function count(){$('checked').textContent=checks.filter(Boolean).length+' von '+checks.length+' abgehakt · '+r.servings+(r.status==='planned'?' · nur belegte Mengen':'');}
  function renderStep(){
   const complete=r.status!=='planned'&&r.steps.length>0,n=r.steps.length,p=complete?(done?100:Math.round(step/n*100)):0;
   $('count').textContent=complete?'Schritt '+(step+1)+' von '+n+(r.status==='adapted'?' · neu ausgearbeitet':''):'Originaldetails unvollständig';
@@ -35,7 +35,7 @@ $('recipe').value=r.id;$('meta').textContent=(r.time?r.time+' · ':'')+r.serving
   r.ingredients.forEach((text,i)=>{const li=document.createElement('li'),label=document.createElement('label'),input=document.createElement('input'),span=document.createElement('span');input.type='checkbox';input.checked=checks[i];span.textContent=text;input.onchange=()=>{checks[i]=input.checked;count();save();};label.append(input,span);li.append(label);$('ingredients').append(li);});
   count();renderStep();save();
  }
- recipes.forEach(x=>{const option=document.createElement('option');option.value=x.id;option.textContent=weekOf(x).weekLabel+' · '+x.day+' · '+x.name+(x.status==='planned'?' (geplant)':x.status==='adapted'?' (ergänzt)':'');$('recipe').append(option);});
+ recipes.forEach(x=>{const option=document.createElement('option');option.value=x.id;option.textContent=weekOf(x).weekLabel+' · '+x.day+' · '+x.name+(x.status==='planned'?' (Original unvollständig)':x.status==='adapted'?' (ergänzt)':'');$('recipe').append(option);});
  $('recipe').onchange=()=>{r=recipes.find(x=>x.id===$('recipe').value);load();render();};
  $('archive').onclick=()=>{$('archive-dialog').showModal();};
  $('archive-close').onclick=()=>$('archive-dialog').close();
