@@ -1,232 +1,436 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-28-import-2",
-  "weekLabel": "Dienstag bis Freitag · 27.–30. Oktober 2026",
-  "dateNote": "Die Kalenderdaten wurden aus dem Chatkontext erschlossen; die Wochentage sind vereinbart.",
+  "version": "2026-11-02-week-45",
+  "weekLabel": "Dienstag bis Freitag · 3.–6. November 2026",
+  "dateNote": "Wochenplan vom 2. November · Mengen wie in der freigegebenen Einkaufsliste.",
   "recipes": [
     {
-      "id": "paprika-haehnchen",
+      "id": "2026-11-03-haehnchen-moehren",
       "day": "Dienstag",
-      "date": "2026-10-27",
-      "name": "Cremiges Paprika-Hähnchen mit Reis",
-      "time": "30–35 Minuten",
-      "servings": "2 Erwachsene + 1 Kind",
+      "date": "2026-11-03",
+      "name": "Hähnchen in Möhren-Rahmsoße mit Reis",
+      "time": "35–40 Minuten",
+      "servings": "ca. 3 Portionen",
       "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
       "ingredients": [
-        "350 g Hähnchenbrustfilet",
-        "1 rote Paprika (ca. 150–180 g)",
-        "1 kleine Zwiebel (ca. 70 g)",
+        "350 g Hähnchenbrust",
+        "300 g Möhren",
+        "1 Zwiebel",
         "200 ml Kochsahne",
         "150 ml Gemüsebrühe",
-        "1 EL Tomatenmark (ca. 20 g)",
+        "10 g Butter",
         "1 EL Rapsöl",
         "1 TL Paprikapulver edelsüß",
-        "Zunächst ¼ TL Salz, später abschmecken",
-        "Etwas schwarzer Pfeffer",
-        "250 g Reis (ungekocht)",
-        "Wasser für Reis nach Packungsangabe (häufig ca. 500 ml)",
-        "Etwas Salz für den Reis"
-      ],
-      "steps": [
-        [
-          "Gemüse und Fleisch vorbereiten · 5–7 Minuten",
-          "1 rote Paprika waschen, entkernen und in etwa 5 mm kleine Würfel schneiden. 1 kleine Zwiebel schälen und fein würfeln. 350 g Hähnchenbrust in kleine, mundgerechte Streifen schneiden. Paprika bewusst klein schneiden, damit sie später weich wird."
-        ],
-        [
-          "Reis aufsetzen · 15–20 Minuten, parallel",
-          "250 g Reis nach Packungsanleitung mit Wasser und etwas Salz aufsetzen. Bei vielen Sorten sind es etwa 500 ml Wasser; die Packungsangabe hat Vorrang. Bei geschlossenem Deckel auf niedriger Hitze garen. Anschließend 5 Minuten ruhen lassen und mit einer Gabel auflockern."
-        ],
-        [
-          "Hähnchen anbraten · 4–5 Minuten",
-          "1 EL Rapsöl in einer großen Pfanne erhitzen, Herdstufe 6–7 von 9. Die Hähnchenstreifen rundherum 4–5 Minuten leicht bräunen. Auf einen Teller geben. Das Fleisch muss noch nicht durch sein, es gart später in der Soße fertig."
-        ],
-        [
-          "Paprika weich dünsten · 8–10 Minuten",
-          "Auf Herdstufe 4–5 von 9 reduzieren. Zwiebel und Paprika im Bratensatz 3 Minuten unter Rühren anschwitzen. 50 ml der Gemüsebrühe dazugeben. Deckel auflegen und 5–7 Minuten dünsten. Falls die Paprika noch fest ist, 2–3 Minuten länger garen."
-        ],
-        [
-          "Cremige Paprikasoße · etwa 5 Minuten",
-          "1 EL Tomatenmark (ca. 20 g) und 1 TL Paprikapulver zum weichen Gemüse geben und etwa 30 Sekunden unter Rühren anschwitzen. 200 ml Kochsahne, die restlichen 100 ml Gemüsebrühe, zunächst ¼ TL Salz und etwas Pfeffer ergänzen. Bei Herdstufe 3–4 von 9 etwa 4–5 Minuten sanft köcheln."
-        ],
-        [
-          "Hähnchen fertig garen · 5–7 Minuten",
-          "Hähnchen samt Fleischsaft zurück in die Pfanne geben. Bei niedriger bis mittlerer Hitze 5–7 Minuten sanft köcheln und vollständig durchgaren (mindestens 74 °C Kerntemperatur). Abschmecken. Zu dicke Soße mit 1–2 EL Wasser verdünnen; zu dünne Soße ohne Deckel einkochen."
-        ],
-        [
-          "Anrichten",
-          "Reis auf Teller geben und Paprika-Hähnchen mit reichlich Soße daneben anrichten. Bei Bedarf Reis mit etwas Soße vorab separat abnehmen. Guten Appetit!"
-        ]
-      ],
-      "missingFields": []
-    },
-    {
-      "id": "schupfnudelpfanne",
-      "day": "Mittwoch",
-      "date": "2026-10-28",
-      "name": "Schupfnudelpfanne mit Schinken und Zucchini",
-      "time": "25–30 Minuten",
-      "servings": "2 Erwachsene + 1 Kind",
-      "status": "adapted",
-      "ingredients": [
-        "600 g Schupfnudeln",
-        "100 g Kochschinken",
-        "1 Zucchini",
-        "200 ml Kochsahne (neu zugeordnet)",
-        "1 Knoblauchzehe (neu ergänzt)",
-        "10 g Butter (neu ergänzt)",
-        "1 EL Rapsöl (neu ergänzt)",
-        "3 EL Wasser zum Dünsten, bei Bedarf etwas mehr",
-        "Salz und Pfeffer nach Geschmack"
-      ],
-      "steps": [
-        [
-          "Alles klein schneiden · etwa 5 Minuten",
-          "Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder grob raspeln. 100 g Kochschinken klein schneiden. 1 Knoblauchzehe schälen und fein hacken. 600 g Schupfnudeln bereitstellen."
-        ],
-        [
-          "Schupfnudeln anbraten · 6–8 Minuten",
-          "1 EL Rapsöl und 10 g Butter in einer großen Pfanne bei mittlerer Hitze (etwa Stufe 5–6 von 9) erhitzen. Schupfnudeln nach Packungsangabe rundherum leicht goldbraun braten. Auf einen Teller geben. Bei wenig Platz in zwei Portionen braten."
-        ],
-        [
-          "Zucchini sehr weich dünsten · 6–8 Minuten",
-          "Zucchini in dieselbe Pfanne geben und 2 Minuten bei Stufe 4–5 von 9 anschwitzen. 3 EL Wasser dazugeben und den Deckel auflegen. 4–6 Minuten weich dünsten. Prüfen: Die Würfel sollen sich leicht mit einer Gabel zerdrücken lassen. Falls nötig etwas Wasser ergänzen und länger dünsten."
-        ],
-        [
-          "Schinken und Knoblauch dazugeben · 1 Minute",
-          "Kochschinken und Knoblauch zur weichen Zucchini geben und etwa 1 Minute unter Rühren erwärmen. Knoblauch nicht dunkel werden lassen."
-        ],
-        [
-          "Cremige Soße · 3–4 Minuten",
-          "200 ml Kochsahne dazugeben und bei niedriger bis mittlerer Hitze 3–4 Minuten sanft köcheln lassen. Mild mit Salz und Pfeffer abschmecken; der Schinken bringt bereits Salz mit. Bei zu dicker Soße 1–2 EL Wasser ergänzen."
-        ],
-        [
-          "Vermengen und servieren · 2 Minuten",
-          "Schupfnudeln zurück in die Pfanne geben, vorsichtig mit der Soße mischen und etwa 2 Minuten vollständig erhitzen. Nach Packungsangabe sicherstellen, dass die Schupfnudeln fertig gegart sind. Mit reichlich cremiger Soße servieren. Guten Appetit!"
-        ]
-      ],
-      "planningNote": "Zucchini fein würfeln oder raspeln und weich garen. Bisher nur als Gericht mit diesen Grundzutaten geplant.",
-      "missingFields": [],
-      "sourceNote": "Aus der vereinbarten groben Planung neu ausgearbeitet am 28.10.2026. Zusätzliche Mengen und Schritte sind neue Ergänzungen.",
-      "originalIngredients": [
-        "600 g Schupfnudeln",
-        "100 g Kochschinken",
-        "1 Zucchini"
-      ]
-    },
-    {
-      "id": "kartoffel-brokkoli",
-      "day": "Donnerstag",
-      "date": "2026-10-29",
-      "name": "Cremiger Kartoffel-Brokkoli-Auflauf",
-      "time": "55–65 Minuten",
-      "servings": "2 Erwachsene + 1 Kind",
-      "status": "complete",
-      "ingredients": [
-        "800 g vorwiegend festkochende Kartoffeln",
-        "350 g Brokkoli (frisch oder TK)",
-        "1 kleine Zwiebel (ca. 60–70 g)",
-        "200 ml Kochsahne",
-        "150 g Frischkäse natur",
-        "150 ml Gemüsebrühe",
-        "10 g Butter für die Soße",
-        "Etwas Butter für die Auflaufform",
-        "¼ TL Muskatnuss nach Geschmack (frisch gerieben zunächst eine kleine Prise)",
-        "¼ TL Paprikapulver edelsüß",
-        "Salz und Pfeffer (Soße zunächst mit ¼ TL Salz würzen)",
-        "100–120 g geriebener milder Gouda"
-      ],
-      "steps": [
-        [
-          "Kartoffeln vorbereiten und vorkochen",
-          "800 g Kartoffeln schälen und in etwa 4–5 mm dünne Scheiben schneiden. Große Kartoffeln vorher halbieren. In leicht gesalzenem Wasser 10–12 Minuten sanft kochen, bis sie fast weich sind, aber nicht zerfallen. Mit einer Gabel prüfen und abgießen. Vorbereitung: etwa 5 Minuten."
-        ],
-        [
-          "Brokkoli zart garen · 7–9 Minuten",
-          "350 g Brokkoli in sehr kleine Röschen von 1–2 cm teilen. Dicke Stiele entfernen oder schälen und fein würfeln. In leicht gesalzenem Wasser 7–9 Minuten weich kochen und gut abtropfen lassen. Bei TK kann die Garzeit abweichen. Optional während der letzten 7–9 Minuten zu den Kartoffeln geben."
-        ],
-        [
-          "Zwiebel weich dünsten · 5–6 Minuten",
-          "1 kleine Zwiebel fein würfeln. 10 g Butter in einem kleinen Topf bei Herdstufe 4 von 9 schmelzen. Zwiebel 5–6 Minuten glasig und weich dünsten, ohne sie zu bräunen."
-        ],
-        [
-          "Cremige Soße anrühren · etwa 5 Minuten",
-          "200 ml Kochsahne, 150 ml Gemüsebrühe und 150 g Frischkäse zu den Zwiebeln geben. Bei Herdstufe 3–4 von 9 unter Rühren erhitzen, bis sich der Frischkäse gelöst hat. Mit ¼ TL Muskatnuss (frisch gerieben zunächst nur eine kleine Prise), ¼ TL Paprikapulver, zunächst ¼ TL Salz und etwas Pfeffer würzen. 2–3 Minuten leicht köcheln. Die Soße darf etwas flüssig sein; sie dickt im Ofen ein."
-        ],
-        [
-          "Ofen vorbereiten und Auflauf schichten · etwa 5 Minuten",
-          "Backofen auf 190 °C Ober-/Unterhitze oder 170 °C Umluft vorheizen. Eine Auflaufform von etwa 20 × 28 cm mit Butter einfetten. Hälfte der Kartoffeln, dann Brokkoli und restliche Kartoffeln einschichten. Die ganze Soße langsam darübergeben und die Form leicht rütteln. Falls die Soße vorher zu dick ist, 2–3 EL Wasser ergänzen."
-        ],
-        [
-          "Überbacken · 25–30 Minuten",
-          "100–120 g geriebenen milden Gouda gleichmäßig verteilen; für eine leichte Kruste mit 100 g beginnen. Auf mittlerer Schiene bei 190 °C Ober-/Unterhitze oder 170 °C Umluft 25–30 Minuten backen. Fertig, wenn die Soße blubbert, der Käse goldgelb und die Kartoffeln leicht mit einer Gabel durchstechbar sind. Bei zu schneller Bräunung locker mit Alufolie abdecken."
-        ],
-        [
-          "Ruhen lassen und servieren · 5 Minuten",
-          "Mit Ofenhandschuhen herausnehmen und 5 Minuten ruhen lassen, damit die Soße sämiger wird. Bei Bedarf Kartoffeln und Brokkoli getrennt auf den Teller geben. Guten Appetit!"
-        ]
-      ],
-      "missingFields": []
-    },
-    {
-      "id": "tomaten-nudelpfanne",
-      "day": "Freitag",
-      "date": "2026-10-30",
-      "name": "Cremige Tomaten-Nudelpfanne mit Hähnchen und Zucchini",
-      "time": "35–40 Minuten",
-      "servings": "3 Erwachsene + 1 Kind",
-      "status": "adapted",
-      "ingredients": [
-        "450 g Penne oder Fusilli",
-        "400 g Hähnchenbrust",
-        "1 kleine Zucchini",
-        "700 g passierte Tomaten (neu diesem Rezept zugeordnet)",
-        "200 ml Kochsahne (neu zugeordnet)",
-        "50 g Frischkäse natur (neu zugeordnet)",
-        "1 Zwiebel (neu ergänzt)",
-        "1 Knoblauchzehe (neu ergänzt)",
-        "1 EL Rapsöl (neu ergänzt)",
-        "1 TL italienische Kräuter (neu ergänzt)",
-        "3 EL Wasser zum Dünsten, bei Bedarf mehr",
         "Salz und Pfeffer nach Geschmack",
-        "Wasser und etwas Salz zum Nudelkochen"
+        "250 g Reis, ungekocht",
+        "Wasser für den Reis nach Packungsangabe"
       ],
       "steps": [
         [
           "Vorbereiten · 5–7 Minuten",
-          "Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder raspeln. Zwiebel und Knoblauch schälen und fein hacken. 400 g Hähnchenbrust mit separatem Brett und Messer in kleine mundgerechte Stücke schneiden. Nudelwasser in einem großen Topf aufsetzen."
+          "300 g Möhren schälen und in etwa 5 mm kleine Würfel oder sehr dünne halbe Scheiben schneiden. 1 Zwiebel fein würfeln. 350 g Hähnchenbrust auf einem separaten Brett in kleine mundgerechte Streifen schneiden."
+        ],
+        [
+          "Reis parallel aufsetzen",
+          "250 g Reis mit Wasser und etwas Salz nach Packungsanleitung garen. Die Wassermenge richtet sich nach der Reissorte. Auf niedriger Hitze mit Deckel garen, anschließend nach Packungsangabe ruhen lassen."
         ],
         [
           "Hähnchen anbraten · 4–5 Minuten",
-          "1 EL Rapsöl in einer großen, tiefen Pfanne bei Herdstufe 6 von 9 erhitzen. Hähnchenstücke rundherum 4–5 Minuten leicht bräunen und auf einen Teller geben. Das Fleisch gart später in der Soße vollständig fertig."
+          "1 EL Rapsöl in einer großen Pfanne bei Stufe 6 von 9 erhitzen. Hähnchenstreifen rundherum 4–5 Minuten leicht bräunen. Auf einen Teller geben; das Fleisch wird später in der Soße vollständig fertig gegart."
         ],
         [
-          "Gemüse weich dünsten · 8–10 Minuten",
-          "Hitze auf Stufe 4–5 von 9 reduzieren. Zwiebel und Zucchini im Bratensatz 3 Minuten anschwitzen. 3 EL Wasser ergänzen, Deckel auflegen und 5–7 Minuten weich dünsten. Falls nötig Wasser ergänzen und länger garen. Knoblauch zuletzt etwa 30 Sekunden mitdünsten."
+          "Möhren sehr weich dünsten · 12–15 Minuten",
+          "Hitze auf Stufe 4–5 von 9 reduzieren. 10 g Butter und die Zwiebel in die Pfanne geben und 2 Minuten glasig dünsten. Möhren und 150 ml Gemüsebrühe ergänzen. Mit Deckel 10–13 Minuten sanft dünsten, bis die kleinen Möhrenstücke sehr weich sind. Falls nötig etwas Wasser ergänzen und länger garen."
         ],
         [
-          "Tomatensoße köcheln · 10 Minuten",
-          "700 g passierte Tomaten und 1 TL italienische Kräuter zum weichen Gemüse geben. Vorsichtig mit Salz und Pfeffer würzen. Bei niedriger bis mittlerer Hitze 10 Minuten sanft köcheln und gelegentlich umrühren."
+          "Rahmsoße und Hähnchen fertig garen · 5–7 Minuten",
+          "200 ml Kochsahne und 1 TL Paprikapulver unterrühren. Hähnchen samt Fleischsaft dazugeben. Bei Stufe 3–4 von 9 mindestens 5–7 Minuten sanft köcheln; das Fleisch muss vollständig durchgegart sein. Mit einem Küchenthermometer prüfen: mindestens 74 °C im Inneren. Bei Bedarf länger garen."
+        ],
+        [
+          "Abschmecken und servieren",
+          "Mild mit Salz und Pfeffer abschmecken. Zu dicke Soße mit etwas Wasser verdünnen, zu dünne kurz ohne Deckel einkochen. Reis auflockern und mit Hähnchen und reichlich Möhren-Rahmsoße servieren."
+        ]
+      ],
+      "missingFields": []
+    },
+    {
+      "id": "2026-11-04-gnocchi-spinat",
+      "day": "Mittwoch",
+      "date": "2026-11-04",
+      "name": "Cremige Gnocchi-Pfanne mit Spinat",
+      "time": "25–30 Minuten",
+      "servings": "ca. 3 Portionen",
+      "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
+      "ingredients": [
+        "600 g Gnocchi",
+        "200 g TK-Blattspinat, ungewürzt",
+        "1 Zwiebel",
+        "1 Knoblauchzehe",
+        "200 ml Kochsahne",
+        "100 g Frischkäse natur",
+        "100 ml Gemüsebrühe",
+        "1 kleine Prise Muskatnuss",
+        "Salz und Pfeffer nach Geschmack"
+      ],
+      "steps": [
+        [
+          "Spinat und Gemüse vorbereiten",
+          "200 g TK-Blattspinat nach Packungsangabe auftauen oder direkt zum Garen bereitstellen. Aufgetauten Blattspinat fein hacken, damit keine langen Blätter oder festen Stücke bleiben. 1 Zwiebel und 1 Knoblauchzehe sehr fein würfeln."
+        ],
+        [
+          "Zwiebel weich garen · 5–6 Minuten",
+          "Zwiebel mit 100 ml Gemüsebrühe in eine große tiefe Pfanne geben. Bei Stufe 4–5 von 9 mit Deckel 5–6 Minuten sanft garen, bis sie weich ist. Bei Bedarf etwas Wasser ergänzen. Knoblauch dazugeben und 1 Minute mitgaren."
+        ],
+        [
+          "Spinat vollständig garen",
+          "Spinat dazugeben und unter gelegentlichem Rühren vollständig erhitzen und weich garen. Die Mindestgarzeit und Zubereitungshinweise auf der TK-Packung beachten; gefrorene Portionen brauchen länger als aufgetaute. Bei Bedarf etwas Wasser ergänzen."
+        ],
+        [
+          "Cremige Soße anrühren · 2–3 Minuten",
+          "200 ml Kochsahne und 100 g Frischkäse dazugeben. Bei Stufe 3–4 von 9 unter Rühren erhitzen, bis sich der Frischkäse aufgelöst hat. Mit einer kleinen Prise Muskatnuss, Salz und Pfeffer mild würzen."
+        ],
+        [
+          "Gnocchi garen · nach Packungsangabe",
+          "600 g Gnocchi in der Soße bei niedriger bis mittlerer Hitze gar ziehen lassen, sofern die Packung das Garen direkt in einer Pfanne erlaubt; meist etwa 5–8 Minuten. Regelmäßig vorsichtig wenden und bei Bedarf etwas Wasser ergänzen. Gnocchi, die laut Packung zuvor in Wasser gekocht werden müssen, separat so zubereiten und anschließend in die Soße geben."
+        ],
+        [
+          "Servieren",
+          "Prüfen, ob die Gnocchi bis innen heiß und weich sind. Die Soße soll cremig bleiben und die Gnocchi gut umhüllen. Nochmals mild abschmecken und sofort servieren."
+        ]
+      ],
+      "missingFields": []
+    },
+    {
+      "id": "2026-11-05-stampf-ruehrei",
+      "day": "Donnerstag",
+      "date": "2026-11-05",
+      "name": "Kartoffel-Möhren-Stampf mit Rührei",
+      "time": "30–35 Minuten",
+      "servings": "ca. 3 Portionen",
+      "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
+      "ingredients": [
+        "900 g mehligkochende Kartoffeln",
+        "400 g Möhren",
+        "6 Eier",
+        "150 ml Milch (100 ml Stampf, 50 ml Rührei)",
+        "30 g Butter (20 g Stampf, 10 g Rührei)",
+        "1 kleine Prise Muskatnuss",
+        "Salz und Pfeffer nach Geschmack",
+        "Wasser zum Kochen"
+      ],
+      "steps": [
+        [
+          "Gemüse vorbereiten · 7–10 Minuten",
+          "900 g Kartoffeln und 400 g Möhren schälen. Kartoffeln in etwa 2 cm große Stücke schneiden. Möhren kleiner schneiden, etwa 1 cm, damit beides gleichzeitig schön weich wird."
+        ],
+        [
+          "Sehr weich kochen · 18–22 Minuten",
+          "Kartoffeln und Möhren in einen großen Topf geben, knapp mit Wasser bedecken und leicht salzen. Aufkochen, dann bei mittlerer Hitze 18–22 Minuten sanft kochen. Beide Gemüsesorten müssen sich mühelos mit einer Gabel zerdrücken lassen; gegebenenfalls länger garen."
+        ],
+        [
+          "Rührei vorbereiten",
+          "6 Eier in einer Schüssel mit 50 ml Milch, wenig Salz und etwas Pfeffer verquirlen. 100 ml Milch für den Stampf separat sanft erwärmen, ohne sie kochen zu lassen."
+        ],
+        [
+          "Stampf zubereiten · 3–4 Minuten",
+          "Gemüse abgießen und 1 Minute ausdampfen lassen. 20 g Butter und zunächst einen Teil der 100 ml warmen Milch dazugeben. Mit einem Kartoffelstampfer weich zerdrücken und die übrige Milch nach Bedarf unterarbeiten. Mit einer kleinen Prise Muskatnuss und Salz abschmecken. Zugedeckt warm halten; keinen Pürierstab verwenden."
+        ],
+        [
+          "Rührei sanft stocken lassen · 5–7 Minuten",
+          "10 g Butter in einer beschichteten Pfanne bei niedriger bis mittlerer Hitze, etwa Stufe 3–4 von 9, schmelzen. Eiermasse hineingeben. Mit einem Pfannenwender langsam vom Rand zur Mitte schieben. Sanft garen, bis das Ei vollständig gestockt, aber noch weich ist; bei Bedarf etwas länger garen."
+        ],
+        [
+          "Anrichten",
+          "Kartoffel-Möhren-Stampf und Rührei nebeneinander auf Teller geben und direkt servieren. Kleine weiche Möhrenstückchen im Stampf dürfen bleiben."
+        ]
+      ],
+      "missingFields": []
+    },
+    {
+      "id": "2026-11-06-hack-zucchini",
+      "day": "Freitag",
+      "date": "2026-11-06",
+      "name": "Nudeln mit milder Hackfleisch-Zucchini-Tomatensoße",
+      "time": "30–35 Minuten",
+      "servings": "ca. 3 Portionen",
+      "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
+      "ingredients": [
+        "300 g Nudeln",
+        "250 g Rinderhackfleisch",
+        "1 mittelgroße Zucchini",
+        "1 Zwiebel",
+        "1 Knoblauchzehe",
+        "500 g passierte Tomaten",
+        "1 EL Rapsöl",
+        "1 TL italienische Kräuter",
+        "½ TL Paprikapulver edelsüß",
+        "Salz und Pfeffer nach Geschmack",
+        "Wasser für die Nudeln; etwas Nudelwasser für die Soße"
+      ],
+      "steps": [
+        [
+          "Alles klein schneiden · 5 Minuten",
+          "1 Zwiebel und 1 Knoblauchzehe schälen und fein würfeln. Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder grob raspeln. Einen großen Topf Nudelwasser aufsetzen."
+        ],
+        [
+          "Hackfleisch anbraten · 5–7 Minuten",
+          "1 EL Rapsöl in einer großen Pfanne bei Stufe 6 von 9 erhitzen. 250 g Rinderhackfleisch hineingeben und mit dem Pfannenwender fein zerteilen. Unter Wenden 5–7 Minuten kräftig anbraten."
+        ],
+        [
+          "Gemüse weich garen · 8–10 Minuten",
+          "Hitze auf Stufe 4–5 von 9 reduzieren. Zwiebel und Zucchini zum Hack geben und 3 Minuten mitgaren. Etwa 3 EL Wasser ergänzen, Deckel auflegen und 5–7 Minuten sanft dünsten, bis das Gemüse sehr weich ist. Knoblauch zuletzt 1 Minute mitgaren."
+        ],
+        [
+          "Tomatensoße köcheln · 10–12 Minuten",
+          "500 g passierte Tomaten, 1 TL italienische Kräuter und ½ TL Paprikapulver ergänzen. Mild mit Salz und Pfeffer würzen. Bei niedriger bis mittlerer Hitze 10–12 Minuten sanft köcheln und gelegentlich umrühren. Das Hackfleisch muss vollständig durchgegart sein."
         ],
         [
           "Nudeln parallel kochen",
-          "Kochendes Nudelwasser leicht salzen. 450 g Penne oder Fusilli nach Packungsanleitung garen. Vor dem Abgießen eine Tasse Nudelwasser auffangen."
+          "300 g Nudeln in leicht gesalzenem Wasser nach Packungsangabe garen. Vor dem Abgießen eine Tasse Nudelwasser auffangen."
         ],
         [
-          "Cremig verfeinern und Hähnchen fertig garen · 5–7 Minuten",
-          "200 ml Kochsahne und 50 g Frischkäse in die Tomatensoße rühren, bis der Frischkäse gelöst ist. Hähnchen samt Fleischsaft zugeben und 5–7 Minuten sanft köcheln. Vollständig durchgaren (mindestens 74 °C Kerntemperatur). Bei größeren Stücken länger garen."
-        ],
-        [
-          "Nudeln untermischen und servieren",
-          "Nudeln zur fertigen Soße geben und gut mischen. Bei Bedarf etwas aufgefangenes Nudelwasser ergänzen, bis die Soße cremig an den Nudeln haftet. Mild abschmecken und servieren. Guten Appetit!"
+          "Vermengen und servieren",
+          "Nudeln mit der fertigen Soße vermischen. Bei Bedarf etwas Nudelwasser ergänzen, bis die Soße schön sämig ist. Nochmals mild abschmecken und servieren."
         ]
       ],
-      "planningNote": "Cremige Tomatensoße, bevorzugt aus passierten Tomaten. Zucchini sehr klein schneiden oder raspeln und weich garen. Die Wochen-Einkaufsmengen für Tomaten, Sahne und Frischkäse waren noch nicht verbindlich auf dieses Rezept verteilt.",
-      "missingFields": [],
-      "sourceNote": "Aus der vereinbarten groben Planung neu ausgearbeitet am 28.10.2026. Tomaten, Sahne und Frischkäse wurden für diese neue Fassung ausdrücklich zugeordnet; keine ursprünglichen Rezeptmengen.",
-      "originalIngredients": [
-        "450 g Penne oder Fusilli",
-        "400 g Hähnchenbrust",
-        "1 kleine Zucchini"
+      "missingFields": []
+    }
+  ],
+  "archiveWeeks": [
+    {
+      "version": "2026-10-28-import-2",
+      "weekLabel": "Dienstag bis Freitag · 27.–30. Oktober 2026",
+      "dateNote": "Die Kalenderdaten wurden aus dem Chatkontext erschlossen; die Wochentage sind vereinbart.",
+      "recipes": [
+        {
+          "id": "paprika-haehnchen",
+          "day": "Dienstag",
+          "date": "2026-10-27",
+          "name": "Cremiges Paprika-Hähnchen mit Reis",
+          "time": "30–35 Minuten",
+          "servings": "2 Erwachsene + 1 Kind",
+          "status": "complete",
+          "ingredients": [
+            "350 g Hähnchenbrustfilet",
+            "1 rote Paprika (ca. 150–180 g)",
+            "1 kleine Zwiebel (ca. 70 g)",
+            "200 ml Kochsahne",
+            "150 ml Gemüsebrühe",
+            "1 EL Tomatenmark (ca. 20 g)",
+            "1 EL Rapsöl",
+            "1 TL Paprikapulver edelsüß",
+            "Zunächst ¼ TL Salz, später abschmecken",
+            "Etwas schwarzer Pfeffer",
+            "250 g Reis (ungekocht)",
+            "Wasser für Reis nach Packungsangabe (häufig ca. 500 ml)",
+            "Etwas Salz für den Reis"
+          ],
+          "steps": [
+            [
+              "Gemüse und Fleisch vorbereiten · 5–7 Minuten",
+              "1 rote Paprika waschen, entkernen und in etwa 5 mm kleine Würfel schneiden. 1 kleine Zwiebel schälen und fein würfeln. 350 g Hähnchenbrust in kleine, mundgerechte Streifen schneiden. Paprika bewusst klein schneiden, damit sie später weich wird."
+            ],
+            [
+              "Reis aufsetzen · 15–20 Minuten, parallel",
+              "250 g Reis nach Packungsanleitung mit Wasser und etwas Salz aufsetzen. Bei vielen Sorten sind es etwa 500 ml Wasser; die Packungsangabe hat Vorrang. Bei geschlossenem Deckel auf niedriger Hitze garen. Anschließend 5 Minuten ruhen lassen und mit einer Gabel auflockern."
+            ],
+            [
+              "Hähnchen anbraten · 4–5 Minuten",
+              "1 EL Rapsöl in einer großen Pfanne erhitzen, Herdstufe 6–7 von 9. Die Hähnchenstreifen rundherum 4–5 Minuten leicht bräunen. Auf einen Teller geben. Das Fleisch muss noch nicht durch sein, es gart später in der Soße fertig."
+            ],
+            [
+              "Paprika weich dünsten · 8–10 Minuten",
+              "Auf Herdstufe 4–5 von 9 reduzieren. Zwiebel und Paprika im Bratensatz 3 Minuten unter Rühren anschwitzen. 50 ml der Gemüsebrühe dazugeben. Deckel auflegen und 5–7 Minuten dünsten. Falls die Paprika noch fest ist, 2–3 Minuten länger garen."
+            ],
+            [
+              "Cremige Paprikasoße · etwa 5 Minuten",
+              "1 EL Tomatenmark (ca. 20 g) und 1 TL Paprikapulver zum weichen Gemüse geben und etwa 30 Sekunden unter Rühren anschwitzen. 200 ml Kochsahne, die restlichen 100 ml Gemüsebrühe, zunächst ¼ TL Salz und etwas Pfeffer ergänzen. Bei Herdstufe 3–4 von 9 etwa 4–5 Minuten sanft köcheln."
+            ],
+            [
+              "Hähnchen fertig garen · 5–7 Minuten",
+              "Hähnchen samt Fleischsaft zurück in die Pfanne geben. Bei niedriger bis mittlerer Hitze 5–7 Minuten sanft köcheln und vollständig durchgaren (mindestens 74 °C Kerntemperatur). Abschmecken. Zu dicke Soße mit 1–2 EL Wasser verdünnen; zu dünne Soße ohne Deckel einkochen."
+            ],
+            [
+              "Anrichten",
+              "Reis auf Teller geben und Paprika-Hähnchen mit reichlich Soße daneben anrichten. Bei Bedarf Reis mit etwas Soße vorab separat abnehmen. Guten Appetit!"
+            ]
+          ],
+          "missingFields": []
+        },
+        {
+          "id": "schupfnudelpfanne",
+          "day": "Mittwoch",
+          "date": "2026-10-28",
+          "name": "Schupfnudelpfanne mit Schinken und Zucchini",
+          "time": "25–30 Minuten",
+          "servings": "2 Erwachsene + 1 Kind",
+          "status": "adapted",
+          "ingredients": [
+            "600 g Schupfnudeln",
+            "100 g Kochschinken",
+            "1 Zucchini",
+            "200 ml Kochsahne (neu zugeordnet)",
+            "1 Knoblauchzehe (neu ergänzt)",
+            "10 g Butter (neu ergänzt)",
+            "1 EL Rapsöl (neu ergänzt)",
+            "3 EL Wasser zum Dünsten, bei Bedarf etwas mehr",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "steps": [
+            [
+              "Alles klein schneiden · etwa 5 Minuten",
+              "Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder grob raspeln. 100 g Kochschinken klein schneiden. 1 Knoblauchzehe schälen und fein hacken. 600 g Schupfnudeln bereitstellen."
+            ],
+            [
+              "Schupfnudeln anbraten · 6–8 Minuten",
+              "1 EL Rapsöl und 10 g Butter in einer großen Pfanne bei mittlerer Hitze (etwa Stufe 5–6 von 9) erhitzen. Schupfnudeln nach Packungsangabe rundherum leicht goldbraun braten. Auf einen Teller geben. Bei wenig Platz in zwei Portionen braten."
+            ],
+            [
+              "Zucchini sehr weich dünsten · 6–8 Minuten",
+              "Zucchini in dieselbe Pfanne geben und 2 Minuten bei Stufe 4–5 von 9 anschwitzen. 3 EL Wasser dazugeben und den Deckel auflegen. 4–6 Minuten weich dünsten. Prüfen: Die Würfel sollen sich leicht mit einer Gabel zerdrücken lassen. Falls nötig etwas Wasser ergänzen und länger dünsten."
+            ],
+            [
+              "Schinken und Knoblauch dazugeben · 1 Minute",
+              "Kochschinken und Knoblauch zur weichen Zucchini geben und etwa 1 Minute unter Rühren erwärmen. Knoblauch nicht dunkel werden lassen."
+            ],
+            [
+              "Cremige Soße · 3–4 Minuten",
+              "200 ml Kochsahne dazugeben und bei niedriger bis mittlerer Hitze 3–4 Minuten sanft köcheln lassen. Mild mit Salz und Pfeffer abschmecken; der Schinken bringt bereits Salz mit. Bei zu dicker Soße 1–2 EL Wasser ergänzen."
+            ],
+            [
+              "Vermengen und servieren · 2 Minuten",
+              "Schupfnudeln zurück in die Pfanne geben, vorsichtig mit der Soße mischen und etwa 2 Minuten vollständig erhitzen. Nach Packungsangabe sicherstellen, dass die Schupfnudeln fertig gegart sind. Mit reichlich cremiger Soße servieren. Guten Appetit!"
+            ]
+          ],
+          "planningNote": "Zucchini fein würfeln oder raspeln und weich garen. Bisher nur als Gericht mit diesen Grundzutaten geplant.",
+          "missingFields": [],
+          "sourceNote": "Aus der vereinbarten groben Planung neu ausgearbeitet am 28.10.2026. Zusätzliche Mengen und Schritte sind neue Ergänzungen.",
+          "originalIngredients": [
+            "600 g Schupfnudeln",
+            "100 g Kochschinken",
+            "1 Zucchini"
+          ]
+        },
+        {
+          "id": "kartoffel-brokkoli",
+          "day": "Donnerstag",
+          "date": "2026-10-29",
+          "name": "Cremiger Kartoffel-Brokkoli-Auflauf",
+          "time": "55–65 Minuten",
+          "servings": "2 Erwachsene + 1 Kind",
+          "status": "complete",
+          "ingredients": [
+            "800 g vorwiegend festkochende Kartoffeln",
+            "350 g Brokkoli (frisch oder TK)",
+            "1 kleine Zwiebel (ca. 60–70 g)",
+            "200 ml Kochsahne",
+            "150 g Frischkäse natur",
+            "150 ml Gemüsebrühe",
+            "10 g Butter für die Soße",
+            "Etwas Butter für die Auflaufform",
+            "¼ TL Muskatnuss nach Geschmack (frisch gerieben zunächst eine kleine Prise)",
+            "¼ TL Paprikapulver edelsüß",
+            "Salz und Pfeffer (Soße zunächst mit ¼ TL Salz würzen)",
+            "100–120 g geriebener milder Gouda"
+          ],
+          "steps": [
+            [
+              "Kartoffeln vorbereiten und vorkochen",
+              "800 g Kartoffeln schälen und in etwa 4–5 mm dünne Scheiben schneiden. Große Kartoffeln vorher halbieren. In leicht gesalzenem Wasser 10–12 Minuten sanft kochen, bis sie fast weich sind, aber nicht zerfallen. Mit einer Gabel prüfen und abgießen. Vorbereitung: etwa 5 Minuten."
+            ],
+            [
+              "Brokkoli zart garen · 7–9 Minuten",
+              "350 g Brokkoli in sehr kleine Röschen von 1–2 cm teilen. Dicke Stiele entfernen oder schälen und fein würfeln. In leicht gesalzenem Wasser 7–9 Minuten weich kochen und gut abtropfen lassen. Bei TK kann die Garzeit abweichen. Optional während der letzten 7–9 Minuten zu den Kartoffeln geben."
+            ],
+            [
+              "Zwiebel weich dünsten · 5–6 Minuten",
+              "1 kleine Zwiebel fein würfeln. 10 g Butter in einem kleinen Topf bei Herdstufe 4 von 9 schmelzen. Zwiebel 5–6 Minuten glasig und weich dünsten, ohne sie zu bräunen."
+            ],
+            [
+              "Cremige Soße anrühren · etwa 5 Minuten",
+              "200 ml Kochsahne, 150 ml Gemüsebrühe und 150 g Frischkäse zu den Zwiebeln geben. Bei Herdstufe 3–4 von 9 unter Rühren erhitzen, bis sich der Frischkäse gelöst hat. Mit ¼ TL Muskatnuss (frisch gerieben zunächst nur eine kleine Prise), ¼ TL Paprikapulver, zunächst ¼ TL Salz und etwas Pfeffer würzen. 2–3 Minuten leicht köcheln. Die Soße darf etwas flüssig sein; sie dickt im Ofen ein."
+            ],
+            [
+              "Ofen vorbereiten und Auflauf schichten · etwa 5 Minuten",
+              "Backofen auf 190 °C Ober-/Unterhitze oder 170 °C Umluft vorheizen. Eine Auflaufform von etwa 20 × 28 cm mit Butter einfetten. Hälfte der Kartoffeln, dann Brokkoli und restliche Kartoffeln einschichten. Die ganze Soße langsam darübergeben und die Form leicht rütteln. Falls die Soße vorher zu dick ist, 2–3 EL Wasser ergänzen."
+            ],
+            [
+              "Überbacken · 25–30 Minuten",
+              "100–120 g geriebenen milden Gouda gleichmäßig verteilen; für eine leichte Kruste mit 100 g beginnen. Auf mittlerer Schiene bei 190 °C Ober-/Unterhitze oder 170 °C Umluft 25–30 Minuten backen. Fertig, wenn die Soße blubbert, der Käse goldgelb und die Kartoffeln leicht mit einer Gabel durchstechbar sind. Bei zu schneller Bräunung locker mit Alufolie abdecken."
+            ],
+            [
+              "Ruhen lassen und servieren · 5 Minuten",
+              "Mit Ofenhandschuhen herausnehmen und 5 Minuten ruhen lassen, damit die Soße sämiger wird. Bei Bedarf Kartoffeln und Brokkoli getrennt auf den Teller geben. Guten Appetit!"
+            ]
+          ],
+          "missingFields": []
+        },
+        {
+          "id": "tomaten-nudelpfanne",
+          "day": "Freitag",
+          "date": "2026-10-30",
+          "name": "Cremige Tomaten-Nudelpfanne mit Hähnchen und Zucchini",
+          "time": "35–40 Minuten",
+          "servings": "3 Erwachsene + 1 Kind",
+          "status": "adapted",
+          "ingredients": [
+            "450 g Penne oder Fusilli",
+            "400 g Hähnchenbrust",
+            "1 kleine Zucchini",
+            "700 g passierte Tomaten (neu diesem Rezept zugeordnet)",
+            "200 ml Kochsahne (neu zugeordnet)",
+            "50 g Frischkäse natur (neu zugeordnet)",
+            "1 Zwiebel (neu ergänzt)",
+            "1 Knoblauchzehe (neu ergänzt)",
+            "1 EL Rapsöl (neu ergänzt)",
+            "1 TL italienische Kräuter (neu ergänzt)",
+            "3 EL Wasser zum Dünsten, bei Bedarf mehr",
+            "Salz und Pfeffer nach Geschmack",
+            "Wasser und etwas Salz zum Nudelkochen"
+          ],
+          "steps": [
+            [
+              "Vorbereiten · 5–7 Minuten",
+              "Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder raspeln. Zwiebel und Knoblauch schälen und fein hacken. 400 g Hähnchenbrust mit separatem Brett und Messer in kleine mundgerechte Stücke schneiden. Nudelwasser in einem großen Topf aufsetzen."
+            ],
+            [
+              "Hähnchen anbraten · 4–5 Minuten",
+              "1 EL Rapsöl in einer großen, tiefen Pfanne bei Herdstufe 6 von 9 erhitzen. Hähnchenstücke rundherum 4–5 Minuten leicht bräunen und auf einen Teller geben. Das Fleisch gart später in der Soße vollständig fertig."
+            ],
+            [
+              "Gemüse weich dünsten · 8–10 Minuten",
+              "Hitze auf Stufe 4–5 von 9 reduzieren. Zwiebel und Zucchini im Bratensatz 3 Minuten anschwitzen. 3 EL Wasser ergänzen, Deckel auflegen und 5–7 Minuten weich dünsten. Falls nötig Wasser ergänzen und länger garen. Knoblauch zuletzt etwa 30 Sekunden mitdünsten."
+            ],
+            [
+              "Tomatensoße köcheln · 10 Minuten",
+              "700 g passierte Tomaten und 1 TL italienische Kräuter zum weichen Gemüse geben. Vorsichtig mit Salz und Pfeffer würzen. Bei niedriger bis mittlerer Hitze 10 Minuten sanft köcheln und gelegentlich umrühren."
+            ],
+            [
+              "Nudeln parallel kochen",
+              "Kochendes Nudelwasser leicht salzen. 450 g Penne oder Fusilli nach Packungsanleitung garen. Vor dem Abgießen eine Tasse Nudelwasser auffangen."
+            ],
+            [
+              "Cremig verfeinern und Hähnchen fertig garen · 5–7 Minuten",
+              "200 ml Kochsahne und 50 g Frischkäse in die Tomatensoße rühren, bis der Frischkäse gelöst ist. Hähnchen samt Fleischsaft zugeben und 5–7 Minuten sanft köcheln. Vollständig durchgaren (mindestens 74 °C Kerntemperatur). Bei größeren Stücken länger garen."
+            ],
+            [
+              "Nudeln untermischen und servieren",
+              "Nudeln zur fertigen Soße geben und gut mischen. Bei Bedarf etwas aufgefangenes Nudelwasser ergänzen, bis die Soße cremig an den Nudeln haftet. Mild abschmecken und servieren. Guten Appetit!"
+            ]
+          ],
+          "planningNote": "Cremige Tomatensoße, bevorzugt aus passierten Tomaten. Zucchini sehr klein schneiden oder raspeln und weich garen. Die Wochen-Einkaufsmengen für Tomaten, Sahne und Frischkäse waren noch nicht verbindlich auf dieses Rezept verteilt.",
+          "missingFields": [],
+          "sourceNote": "Aus der vereinbarten groben Planung neu ausgearbeitet am 28.10.2026. Tomaten, Sahne und Frischkäse wurden für diese neue Fassung ausdrücklich zugeordnet; keine ursprünglichen Rezeptmengen.",
+          "originalIngredients": [
+            "450 g Penne oder Fusilli",
+            "400 g Hähnchenbrust",
+            "1 kleine Zucchini"
+          ]
+        }
       ]
     }
   ]
