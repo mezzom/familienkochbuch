@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-02-recovered-originals",
+  "version": "2026-11-02-alphabetical-archive",
   "weekLabel": "Dienstag bis Freitag · 3.–6. November 2026",
   "dateNote": "Wochenplan vom 2. November · Mengen wie in der freigegebenen Einkaufsliste.",
   "recipes": [
@@ -513,7 +513,8 @@
             "100–200 ml Wasser bei Bedarf",
             "Je Tag etwa 4 Liter Wasser und etwas Salz für die Spaghetti"
           ],
-          "sourceStatus": "recovered_original"
+          "sourceStatus": "recovered_original",
+          "image": "assets/bolognese-original.jpg"
         },
         {
           "id": "alt-geschnetzeltes",
@@ -578,7 +579,8 @@
             "Wasser und etwas Salz für den Reis nach Packungsangabe",
             "1 EL kaltes Wasser für die optionale Stärke"
           ],
-          "sourceStatus": "recovered_original"
+          "sourceStatus": "recovered_original",
+          "image": "assets/geschnetzeltes-original.jpg"
         },
         {
           "id": "alt-frikadellen",
@@ -661,7 +663,8 @@
             "1 kleine Prise Salz für die Möhren",
             "Optional für Pfannensoße: 100 ml Gemüsebrühe und ein kleines Stück Butter (ohne belegte Grammangabe)"
           ],
-          "sourceStatus": "recovered_original"
+          "sourceStatus": "recovered_original",
+          "image": "assets/frikadellen-original.jpg"
         },
         {
           "id": "alt-erbsennudeln",
@@ -722,7 +725,8 @@
             "1 Prise Muskatnuss (optional)",
             "Etwa 3 Liter Wasser und etwas Salz für die Nudeln"
           ],
-          "sourceStatus": "recovered_original"
+          "sourceStatus": "recovered_original",
+          "image": "assets/erbsennudeln-original.jpg"
         }
       ]
     }

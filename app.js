@@ -30,18 +30,27 @@ async function start(){
  function render(){
   const activeWeek=weekOf(r);$('week').textContent=activeWeek.weekLabel+' · '+activeWeek.dateNote;$('current').hidden=activeWeek===data;
 $('preview').hidden=!r.image;if(r.image){$('dish').src=r.image;$('dish').alt='Servierbeispiel: '+r.name;}
-$('recipe').value=r.id;$('meta').textContent=(r.time?r.time+' · ':'')+r.servings;
+$('recipe').textContent=activeWeek===data?r.day+' · '+r.name:'Diese Woche auswählen';$('week-options').querySelectorAll('button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.recipe===r.id)));if(activeWeek!==data)$('week').textContent=r.name+' · '+$('week').textContent;$('meta').textContent=(r.time?r.time+' · ':'')+r.servings;
   $('ingredients').replaceChildren();
   r.ingredients.forEach((text,i)=>{const li=document.createElement('li'),label=document.createElement('label'),input=document.createElement('input'),span=document.createElement('span');input.type='checkbox';input.checked=checks[i];span.textContent=text;input.onchange=()=>{checks[i]=input.checked;count();save();};label.append(input,span);li.append(label);$('ingredients').append(li);});
   count();renderStep();save();
  }
- recipes.forEach(x=>{const option=document.createElement('option');option.value=x.id;option.textContent=weekOf(x).weekLabel+' · '+x.day+' · '+x.name+(x.status==='planned'?' (Original unvollständig)':x.status==='adapted'?' (ergänzt)':'');$('recipe').append(option);});
- $('recipe').onchange=()=>{r=recipes.find(x=>x.id===$('recipe').value);load();render();};
- $('archive').onclick=()=>{$('archive-dialog').showModal();};
+
+ function selectRecipe(recipe){r=recipe;load();render();$('week-picker').open=false;}
+ data.recipes.forEach(x=>{const b=document.createElement('button');b.textContent=x.day+' · '+x.name;b.dataset.recipe=x.id;b.onclick=()=>selectRecipe(x);$('week-options').append(b);});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('week-picker').open){$('week-picker').open=false;$('recipe').focus();}});
+ document.addEventListener('click',e=>{if(!$('week-picker').contains(e.target))$('week-picker').open=false;});
+ $('archive').onclick=()=>{$('week-picker').open=false;$('archive-dialog').showModal();};
  $('archive-close').onclick=()=>$('archive-dialog').close();
- $('current').onclick=()=>{r=data.recipes.find(x=>x.date===today)||data.recipes[0];load();render();};
- weeks.forEach(w=>{const group=document.createElement('section'),heading=document.createElement('h3'),grid=document.createElement('div');group.className='archive-group';heading.textContent=w.weekLabel+(w===data?' · aktuell':'');grid.className='archive-grid';
- w.recipes.forEach(x=>{const b=document.createElement('button');b.className='archive-card';if(x.image){const img=document.createElement('img');img.src=x.image;img.alt='';img.loading='lazy';b.append(img);}const label=document.createElement('span'),small=document.createElement('small');label.textContent=x.name;small.textContent=(x.date||'Datum offen')+' · '+(x.status==='planned'?'Original unvollständig':x.status==='adapted'?'Neu ausgearbeitet':x.sourceStatus==='newly_created_from_approved_plan'?'Aus freigegebenem Plan ausgearbeitet':'Original übernommen');label.append(small);b.append(label);b.onclick=()=>{r=x;load();render();$('archive-dialog').close();};grid.append(b);});group.append(heading,grid);$('archive-list').append(group);});
+ $('current').onclick=()=>selectRecipe(data.recipes.find(x=>x.date===today)||data.recipes[0]);
+ const collator=new Intl.Collator('de',{sensitivity:'base',numeric:true}),grid=document.createElement('div');grid.className='archive-grid';
+ [...recipes].sort((a,b)=>collator.compare(a.name,b.name)).forEach(x=>{
+ const b=document.createElement('button');b.className='archive-card';
+ if(x.image){const img=document.createElement('img');img.src=x.image;img.alt='';img.loading='lazy';b.append(img);}
+ const label=document.createElement('span'),small=document.createElement('small');label.textContent=x.name;
+ small.textContent=(x.time?x.time+' · ':'')+(x.status==='planned'?'Original unvollständig':x.status==='adapted'?'Neu ausgearbeitet':x.sourceStatus==='newly_created_from_approved_plan'?'Aus freigegebenem Plan ausgearbeitet':'Original übernommen');
+ label.append(small);b.append(label);b.onclick=()=>{selectRecipe(x);$('archive-dialog').close();};grid.append(b);
+ });$('archive-list').append(grid);
  $('prev').onclick=()=>{if(step>0){step--;done=false;renderStep();save();$('title').parentElement.scrollTop=0;}};
  $('next').onclick=()=>{if(r.status==='planned')return;if(step<r.steps.length-1)step++;else done=true;renderStep();save();$('title').parentElement.scrollTop=0;};
  $('reset').onclick=()=>$('dialog').showModal();$('cancel').onclick=()=>$('dialog').close();
