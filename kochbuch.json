@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-02-week-45",
+  "version": "2026-11-02-archive",
   "weekLabel": "Dienstag bis Freitag · 3.–6. November 2026",
   "dateNote": "Wochenplan vom 2. November · Mengen wie in der freigegebenen Einkaufsliste.",
   "recipes": [
@@ -52,7 +52,8 @@
           "Mild mit Salz und Pfeffer abschmecken. Zu dicke Soße mit etwas Wasser verdünnen, zu dünne kurz ohne Deckel einkochen. Reis auflockern und mit Hähnchen und reichlich Möhren-Rahmsoße servieren."
         ]
       ],
-      "missingFields": []
+      "missingFields": [],
+      "image": "assets/moehren-haehnchen.jpg"
     },
     {
       "id": "2026-11-04-gnocchi-spinat",
@@ -100,7 +101,8 @@
           "Prüfen, ob die Gnocchi bis innen heiß und weich sind. Die Soße soll cremig bleiben und die Gnocchi gut umhüllen. Nochmals mild abschmecken und sofort servieren."
         ]
       ],
-      "missingFields": []
+      "missingFields": [],
+      "image": "assets/gnocchi-spinat.jpg"
     },
     {
       "id": "2026-11-05-stampf-ruehrei",
@@ -147,7 +149,8 @@
           "Kartoffel-Möhren-Stampf und Rührei nebeneinander auf Teller geben und direkt servieren. Kleine weiche Möhrenstückchen im Stampf dürfen bleiben."
         ]
       ],
-      "missingFields": []
+      "missingFields": [],
+      "image": "assets/stampf-ruehrei.jpg"
     },
     {
       "id": "2026-11-06-hack-zucchini",
@@ -197,7 +200,8 @@
           "Nudeln mit der fertigen Soße vermischen. Bei Bedarf etwas Nudelwasser ergänzen, bis die Soße schön sämig ist. Nochmals mild abschmecken und servieren."
         ]
       ],
-      "missingFields": []
+      "missingFields": [],
+      "image": "assets/hack-zucchini.jpg"
     }
   ],
   "archiveWeeks": [
@@ -259,7 +263,8 @@
               "Reis auf Teller geben und Paprika-Hähnchen mit reichlich Soße daneben anrichten. Bei Bedarf Reis mit etwas Soße vorab separat abnehmen. Guten Appetit!"
             ]
           ],
-          "missingFields": []
+          "missingFields": [],
+          "image": "assets/paprika-haehnchen.jpg"
         },
         {
           "id": "schupfnudelpfanne",
@@ -313,7 +318,8 @@
             "600 g Schupfnudeln",
             "100 g Kochschinken",
             "1 Zucchini"
-          ]
+          ],
+          "image": "assets/schupfnudeln.jpg"
         },
         {
           "id": "kartoffel-brokkoli",
@@ -367,7 +373,8 @@
               "Mit Ofenhandschuhen herausnehmen und 5 Minuten ruhen lassen, damit die Soße sämiger wird. Bei Bedarf Kartoffeln und Brokkoli getrennt auf den Teller geben. Guten Appetit!"
             ]
           ],
-          "missingFields": []
+          "missingFields": [],
+          "image": "assets/brokkoli-auflauf.jpg"
         },
         {
           "id": "tomaten-nudelpfanne",
@@ -429,7 +436,85 @@
             "450 g Penne oder Fusilli",
             "400 g Hähnchenbrust",
             "1 kleine Zucchini"
-          ]
+          ],
+          "image": "assets/tomaten-haehnchen.jpg"
+        }
+      ]
+    },
+    {
+      "version": "older-incomplete",
+      "weekLabel": "Frühere Gerichte · Originaldetails fehlen",
+      "dateNote": "Keine verlässliche Tageszuordnung abrufbar. Nur belegte Originalmengen übernommen.",
+      "recipes": [
+        {
+          "id": "alt-bolognese",
+          "name": "Spaghetti Bolognese (für zwei Essenstage)",
+          "ingredients": [
+            "1.000 g Rinderhackfleisch",
+            "750 g Spaghetti"
+          ],
+          "steps": [],
+          "status": "planned",
+          "day": "Früheres Gericht",
+          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
+          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
+          "missingFields": [
+            "vollständige Zutatenliste",
+            "ursprüngliche Kochanleitung"
+          ],
+          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+        },
+        {
+          "id": "alt-geschnetzeltes",
+          "name": "Cremiges Hähnchengeschnetzeltes mit Reis",
+          "ingredients": [
+            "600 g Hähnchen",
+            "300 g Reis"
+          ],
+          "steps": [],
+          "status": "planned",
+          "day": "Früheres Gericht",
+          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
+          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
+          "missingFields": [
+            "vollständige Zutatenliste",
+            "ursprüngliche Kochanleitung"
+          ],
+          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+        },
+        {
+          "id": "alt-frikadellen",
+          "name": "Frikadellen mit Kartoffelpüree und Butter-Möhren",
+          "ingredients": [
+            "500 g Hackfleisch",
+            "800 g Kartoffeln",
+            "400 g Möhren"
+          ],
+          "steps": [],
+          "status": "planned",
+          "day": "Früheres Gericht",
+          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
+          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
+          "missingFields": [
+            "vollständige Zutatenliste",
+            "ursprüngliche Kochanleitung"
+          ],
+          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+        },
+        {
+          "id": "alt-erbsennudeln",
+          "name": "Cremige Nudeln mit Erbsen",
+          "ingredients": [],
+          "steps": [],
+          "status": "planned",
+          "day": "Früheres Gericht",
+          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
+          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
+          "missingFields": [
+            "vollständige Zutatenliste",
+            "ursprüngliche Kochanleitung"
+          ],
+          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
         }
       ]
     }
