@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-02-archive",
+  "version": "2026-11-02-recovered-originals",
   "weekLabel": "Dienstag bis Freitag · 3.–6. November 2026",
   "dateNote": "Wochenplan vom 2. November · Mengen wie in der freigegebenen Einkaufsliste.",
   "recipes": [
@@ -442,79 +442,287 @@
       ]
     },
     {
-      "version": "older-incomplete",
-      "weekLabel": "Frühere Gerichte · Originaldetails fehlen",
-      "dateNote": "Keine verlässliche Tageszuordnung abrufbar. Nur belegte Originalmengen übernommen.",
+      "version": "older-originals-recovered-2026-11-02",
+      "weekLabel": "Frühere Originalrezepte",
+      "dateNote": "Aus dem kopierten Chatverlauf vollständig übernommen. Kalenderdaten sind nicht belegt; damalige Rezeptfassungen unverändert erhalten.",
       "recipes": [
         {
           "id": "alt-bolognese",
           "name": "Spaghetti Bolognese (für zwei Essenstage)",
           "ingredients": [
             "1.000 g Rinderhackfleisch",
-            "750 g Spaghetti"
+            "750 g Spaghetti (375 g je Tag)",
+            "1.000 g passierte Tomaten",
+            "400 g gehackte Tomaten",
+            "2 mittelgroße Zwiebeln",
+            "2 mittelgroße Möhren (ca. 200 g)",
+            "2 Knoblauchzehen",
+            "3 EL Tomatenmark (ca. 50 g)",
+            "2 EL Olivenöl",
+            "2 TL italienische Kräuter",
+            "Zunächst 1 TL Salz für die Soße",
+            "¼ TL schwarzer Pfeffer",
+            "100–200 ml Wasser bei Bedarf",
+            "Je Tag etwa 4 Liter Wasser und etwas Salz für die Spaghetti"
           ],
-          "steps": [],
-          "status": "planned",
-          "day": "Früheres Gericht",
-          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
-          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
-          "missingFields": [
-            "vollständige Zutatenliste",
-            "ursprüngliche Kochanleitung"
+          "steps": [
+            [
+              "Gemüse vorbereiten · 5 Minuten",
+              "2 Zwiebeln schälen und fein würfeln. 2 Möhren schälen und fein raspeln. 2 Knoblauchzehen fein hacken. Die geraspelten Möhren geben der Soße natürliche Süße."
+            ],
+            [
+              "Hackfleisch kräftig anbraten · 10 Minuten",
+              "Einen großen Topf auf mittlere bis hohe Hitze stellen. 2 EL Olivenöl hineingeben. 1.000 g Rinderhackfleisch in 2–3 Portionen anbraten. Jede Portion zunächst 2 Minuten liegen lassen, bevor du sie zerteilst: Das Fleisch soll braune Röstaromen bekommen. Danach das gesamte Fleisch wieder in den Topf geben."
+            ],
+            [
+              "Gemüse und Tomatenmark anrösten · 7 Minuten",
+              "2 gewürfelte Zwiebeln und 2 geraspelte Möhren dazugeben und bei mittlerer Hitze etwa 5 Minuten mitbraten. 2 gehackte Knoblauchzehen und 3 EL Tomatenmark hinzufügen. Weitere 1–2 Minuten unter Rühren anrösten. Das Tomatenmark darf dunkler werden, aber nicht verbrennen."
+            ],
+            [
+              "Soße köcheln lassen · 35–45 Minuten",
+              "1.000 g passierte Tomaten, 400 g gehackte Tomaten, 2 TL italienische Kräuter, zunächst 1 TL Salz und ¼ TL schwarzen Pfeffer hinzufügen. Verrühren, kurz aufkochen und auf niedrige Hitze reduzieren. Mit leicht geöffnetem Deckel 35–45 Minuten sanft köcheln lassen. Alle 10 Minuten umrühren. Wird die Soße zu dick, 50–100 ml Wasser ergänzen. Zum Schluss probieren und bei Bedarf nachwürzen."
+            ],
+            [
+              "Spaghetti frisch kochen · 10 Minuten",
+              "Für den ersten Tag 375 g Spaghetti in etwa 4 Litern Wasser mit etwas Salz nach Packungsangabe bissfest kochen. Etwa 100 ml Nudelwasser aufheben und bei Bedarf unter die Hälfte der Bolognese rühren. Am zweiten Tag die übrigen 375 g Spaghetti frisch kochen."
+            ],
+            [
+              "Soße für den zweiten Tag aufbewahren",
+              "Die Hälfte der Soße direkt nach dem Kochen in flache Behälter füllen, zügig abkühlen lassen und innerhalb von zwei Stunden in den Kühlschrank stellen. Am zweiten Tag vollständig durcherhitzen."
+            ]
           ],
-          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+          "status": "complete",
+          "day": "Montag & Dienstag",
+          "servings": "6 Portionen / 2 Tage",
+          "missingFields": [],
+          "sourceNote": "Aus dem vom Nutzer am 02.11.2026 kopierten Original-Chatverlauf übernommen; Darstellung gestrafft, Mengen und Zubereitungsangaben erhalten. Keine Kalenderdaten belegt.",
+          "time": "60–75 Minuten",
+          "originalIngredients": [
+            "1.000 g Rinderhackfleisch",
+            "750 g Spaghetti (375 g je Tag)",
+            "1.000 g passierte Tomaten",
+            "400 g gehackte Tomaten",
+            "2 mittelgroße Zwiebeln",
+            "2 mittelgroße Möhren (ca. 200 g)",
+            "2 Knoblauchzehen",
+            "3 EL Tomatenmark (ca. 50 g)",
+            "2 EL Olivenöl",
+            "2 TL italienische Kräuter",
+            "Zunächst 1 TL Salz für die Soße",
+            "¼ TL schwarzer Pfeffer",
+            "100–200 ml Wasser bei Bedarf",
+            "Je Tag etwa 4 Liter Wasser und etwas Salz für die Spaghetti"
+          ],
+          "sourceStatus": "recovered_original"
         },
         {
           "id": "alt-geschnetzeltes",
           "name": "Cremiges Hähnchengeschnetzeltes mit Reis",
           "ingredients": [
-            "600 g Hähnchen",
-            "300 g Reis"
+            "600 g Hähnchenbrustfilet",
+            "300 g Reis, ungekocht",
+            "400 ml Kochsahne",
+            "150 ml Gemüsebrühe",
+            "1 mittelgroße Zwiebel",
+            "200 g TK-Erbsen (optional)",
+            "1 EL Rapsöl",
+            "1 TL Paprikapulver edelsüß",
+            "½ TL Salz, nach Geschmack",
+            "¼ TL schwarzer Pfeffer",
+            "1 TL mittelscharfer Senf (optional)",
+            "1 TL Speisestärke (optional)",
+            "Wasser und etwas Salz für den Reis nach Packungsangabe",
+            "1 EL kaltes Wasser für die optionale Stärke"
           ],
-          "steps": [],
-          "status": "planned",
-          "day": "Früheres Gericht",
-          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
-          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
-          "missingFields": [
-            "vollständige Zutatenliste",
-            "ursprüngliche Kochanleitung"
+          "steps": [
+            [
+              "Hähnchen vorbereiten · 5 Minuten",
+              "600 g Hähnchenbrust in etwa 1 cm breite Streifen schneiden. 1 Zwiebel schälen und fein würfeln. Hähnchen mit ½ TL Paprikapulver und etwas Pfeffer würzen. Anschließend Hände und alle Kontaktflächen gründlich reinigen."
+            ],
+            [
+              "Reis kochen · 15–20 Minuten",
+              "300 g Reis mit der Wassermenge laut Packungsanleitung (bei vielen Sorten etwa 600 ml) und etwas Salz aufkochen. Bei niedriger Hitze mit Deckel garen. Währenddessen das Geschnetzelte zubereiten."
+            ],
+            [
+              "Hähnchen anbraten · 6–8 Minuten",
+              "1 EL Rapsöl in einer großen Pfanne erhitzen. Die 600 g Hähnchenstreifen möglichst in zwei Portionen bei mittlerer bis hoher Hitze anbraten. Je Portion etwa 3–4 Minuten braten, bis die Außenseiten goldbraun sind. Fleisch auf einen Teller geben. Es gart später in der Soße vollständig fertig."
+            ],
+            [
+              "Cremige Soße zubereiten · 7 Minuten",
+              "Die gewürfelte Zwiebel im Bratensatz 2–3 Minuten glasig braten. Mit 150 ml Gemüsebrühe ablöschen, 400 ml Kochsahne und das restliche ½ TL Paprikapulver hinzufügen. Optional 1 TL mittelscharfen Senf einrühren. 4–5 Minuten leicht köcheln lassen. Falls die Soße zu dünn ist, 1 TL Speisestärke mit 1 EL kaltem Wasser verrühren und unter Rühren in die köchelnde Soße geben."
+            ],
+            [
+              "Fleisch fertig garen · 5–7 Minuten",
+              "Angebratenes Hähnchen samt Fleischsaft zurückgeben. Optional 200 g TK-Erbsen hinzufügen. Bei niedriger bis mittlerer Hitze 5–7 Minuten köcheln lassen. Das Hähnchen muss vollständig durchgegart sein (mindestens 74 °C Kerntemperatur). Mit Salz und Pfeffer abschmecken und mit dem Reis servieren. Die Sahnesoße nur sanft köcheln lassen."
+            ]
           ],
-          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+          "status": "complete",
+          "day": "Wochentag nicht belegt",
+          "servings": "3 großzügige Portionen",
+          "missingFields": [],
+          "sourceNote": "Aus dem vom Nutzer am 02.11.2026 kopierten Original-Chatverlauf übernommen; Darstellung gestrafft, Mengen und Zubereitungsangaben erhalten. Keine Kalenderdaten belegt.",
+          "time": "30 Minuten",
+          "originalIngredients": [
+            "600 g Hähnchenbrustfilet",
+            "300 g Reis, ungekocht",
+            "400 ml Kochsahne",
+            "150 ml Gemüsebrühe",
+            "1 mittelgroße Zwiebel",
+            "200 g TK-Erbsen (optional)",
+            "1 EL Rapsöl",
+            "1 TL Paprikapulver edelsüß",
+            "½ TL Salz, nach Geschmack",
+            "¼ TL schwarzer Pfeffer",
+            "1 TL mittelscharfer Senf (optional)",
+            "1 TL Speisestärke (optional)",
+            "Wasser und etwas Salz für den Reis nach Packungsangabe",
+            "1 EL kaltes Wasser für die optionale Stärke"
+          ],
+          "sourceStatus": "recovered_original"
         },
         {
           "id": "alt-frikadellen",
           "name": "Frikadellen mit Kartoffelpüree und Butter-Möhren",
           "ingredients": [
-            "500 g Hackfleisch",
-            "800 g Kartoffeln",
-            "400 g Möhren"
+            "500 g gemischtes Hackfleisch",
+            "1 kleine Zwiebel (ca. 70 g)",
+            "1 Ei (Größe M)",
+            "40 g Paniermehl",
+            "45 ml Milch für die Frikadellen",
+            "1 TL mittelscharfer Senf (optional)",
+            "¾ TL Salz für die Frikadellen",
+            "¼ TL schwarzer Pfeffer",
+            "½ TL Paprikapulver edelsüß",
+            "1–2 EL Rapsöl zum Braten; etwas Öl zum Dünsten der Zwiebel",
+            "800 g mehligkochende Kartoffeln",
+            "180–220 ml Milch für das Püree",
+            "25 g Butter für das Püree",
+            "½ TL Salz für die Kartoffeln",
+            "1 kleine Prise Muskatnuss",
+            "400 g Möhren",
+            "15 g Butter für die Möhren",
+            "1 TL Zucker (ca. 4 g; kann entfallen)",
+            "100 ml Wasser für die Möhren",
+            "1 kleine Prise Salz für die Möhren",
+            "Optional für Pfannensoße: 100 ml Gemüsebrühe und ein kleines Stück Butter (ohne belegte Grammangabe)"
           ],
-          "steps": [],
-          "status": "planned",
-          "day": "Früheres Gericht",
-          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
-          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
-          "missingFields": [
-            "vollständige Zutatenliste",
-            "ursprüngliche Kochanleitung"
+          "steps": [
+            [
+              "Kartoffeln vorbereiten · 5 Minuten + 18–22 Minuten kochen",
+              "800 g Kartoffeln schälen und in etwa 3 cm große Stücke schneiden. In einem Topf mit kaltem Wasser knapp bedecken, ½ TL Salz dazugeben. Auf hoher Stufe aufkochen, auf mittlere Hitze reduzieren und 18–22 Minuten sanft kochen, bis eine Gabel ohne Widerstand hineingleitet. Währenddessen Frikadellen zubereiten."
+            ],
+            [
+              "Frikadellenteig zubereiten · 8–10 Minuten",
+              "1 kleine Zwiebel (70 g) fein würfeln. Für milden Geschmack in etwas Öl 2–3 Minuten glasig dünsten und kurz abkühlen lassen. 40 g Paniermehl mit 45 ml Milch mischen und 2 Minuten quellen lassen. 500 g gemischtes Hackfleisch, 1 Ei, optional 1 TL Senf, ¾ TL Salz, ¼ TL Pfeffer, ½ TL Paprikapulver und die Zwiebel hinzufügen. Mit sauberen Händen 1–2 Minuten gleichmäßig vermengen, aber nicht lange kräftig kneten."
+            ],
+            [
+              "Frikadellen formen und braten · 12–15 Minuten",
+              "Mit leicht angefeuchteten Händen 5 gleich große, etwa 2 cm dicke Frikadellen formen. 1–2 EL Rapsöl bei mittlerer bis mittelhoher Hitze (etwa Stufe 6 von 9) erhitzen. Frikadellen auf der ersten Seite 4–5 Minuten braten, wenden und weitere 4 Minuten braten. Auf Stufe 3–4 reduzieren und je nach Dicke weitere 3–5 Minuten vollständig durchgaren, idealerweise mindestens 70 °C Kerntemperatur für 2 Minuten. Nicht mit dem Pfannenwender plattdrücken. Anschließend 2–3 Minuten ruhen lassen."
+            ],
+            [
+              "Butter-Möhren · 12–15 Minuten",
+              "400 g Möhren schälen und in 4–5 mm dicke Scheiben schneiden. 15 g Butter in einem kleinen Topf bei mittlerer Hitze schmelzen. Möhren 2 Minuten unter Rühren anschwitzen. 100 ml Wasser, 1 TL Zucker und 1 kleine Prise Salz dazugeben. Zugedeckt bei mittlerer bis niedriger Hitze 8–10 Minuten dünsten. Deckel abnehmen und die Flüssigkeit 2–3 Minuten einkochen lassen. Die Möhren sollen weich und dünn mit Butter überzogen sein. Den Zucker bei ausreichender natürlicher Süße weglassen."
+            ],
+            [
+              "Kartoffelpüree fertigstellen · 5 Minuten",
+              "Weiche Kartoffeln abgießen, in den heißen Topf zurückgeben und bei ausgeschalteter Herdplatte 1 Minute ausdampfen lassen. 200 ml Milch mit 25 g Butter erwärmen, nicht kochen. Kartoffeln fein stampfen und die warme Milch-Butter-Mischung portionsweise unterrühren. Mit Muskatnuss und bei Bedarf Salz abschmecken. Ist das Püree zu fest, die übrigen 20 ml Milch ergänzen. Keinen Pürierstab oder Mixer verwenden, sonst kann es klebrig werden."
+            ],
+            [
+              "Anrichten und optionale Pfannensoße",
+              "Frikadellen mit Kartoffelpüree und Butter-Möhren servieren. Optional den Bratensatz mit 100 ml Gemüsebrühe lösen und mit einem kleinen Stück Butter verrühren. Das ergibt in etwa 2 Minuten eine einfache Pfannensoße; eine genaue Buttermenge ist im Original nicht angegeben."
+            ]
           ],
-          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+          "status": "complete",
+          "day": "Donnerstag",
+          "servings": "ca. 3 Portionen",
+          "missingFields": [],
+          "sourceNote": "Aus dem vom Nutzer am 02.11.2026 kopierten Original-Chatverlauf übernommen; Darstellung gestrafft, Mengen und Zubereitungsangaben erhalten. Keine Kalenderdaten belegt.",
+          "time": "40–45 Minuten",
+          "originalIngredients": [
+            "500 g gemischtes Hackfleisch",
+            "1 kleine Zwiebel (ca. 70 g)",
+            "1 Ei (Größe M)",
+            "40 g Paniermehl",
+            "45 ml Milch für die Frikadellen",
+            "1 TL mittelscharfer Senf (optional)",
+            "¾ TL Salz für die Frikadellen",
+            "¼ TL schwarzer Pfeffer",
+            "½ TL Paprikapulver edelsüß",
+            "1–2 EL Rapsöl zum Braten; etwas Öl zum Dünsten der Zwiebel",
+            "800 g mehligkochende Kartoffeln",
+            "180–220 ml Milch für das Püree",
+            "25 g Butter für das Püree",
+            "½ TL Salz für die Kartoffeln",
+            "1 kleine Prise Muskatnuss",
+            "400 g Möhren",
+            "15 g Butter für die Möhren",
+            "1 TL Zucker (ca. 4 g; kann entfallen)",
+            "100 ml Wasser für die Möhren",
+            "1 kleine Prise Salz für die Möhren",
+            "Optional für Pfannensoße: 100 ml Gemüsebrühe und ein kleines Stück Butter (ohne belegte Grammangabe)"
+          ],
+          "sourceStatus": "recovered_original"
         },
         {
           "id": "alt-erbsennudeln",
           "name": "Cremige Nudeln mit Erbsen",
-          "ingredients": [],
-          "steps": [],
-          "status": "planned",
-          "day": "Früheres Gericht",
-          "servings": "Ursprüngliche Portionsangabe nicht abrufbar",
-          "planningNote": "Dieses Gericht wurde im früheren Chat ausgearbeitet. Das vollständige Original ist aktuell nicht abrufbar. Die angezeigten Mengen sind nur die noch belegten Angaben.",
-          "missingFields": [
-            "vollständige Zutatenliste",
-            "ursprüngliche Kochanleitung"
+          "ingredients": [
+            "300 g Nudeln (Fusilli oder Penne)",
+            "200 g TK-Erbsen",
+            "200 ml Kochsahne",
+            "125 g Frischkäse natur",
+            "1 kleine Zwiebel",
+            "1 EL Butter (ca. 15 g)",
+            "100 ml Gemüsebrühe",
+            "½ TL Paprikapulver edelsüß",
+            "Zunächst ¼ TL Salz, später abschmecken",
+            "Etwas frisch gemahlener Pfeffer",
+            "1 Prise Muskatnuss (optional)",
+            "Etwa 3 Liter Wasser und etwas Salz für die Nudeln"
           ],
-          "sourceNote": "Teilweise abrufbare Originalangaben aus dem früheren Essensplanungs-Chat; keine Ergänzungen erfunden."
+          "steps": [
+            [
+              "Nudeln kochen · 10–12 Minuten",
+              "Etwa 3 Liter Wasser in einem großen Topf aufkochen und leicht salzen. 300 g Nudeln nach Packungsangabe bissfest kochen. Vor dem Abgießen etwa 150 ml Nudelwasser für die Soße auffangen."
+            ],
+            [
+              "Zwiebel anschwitzen · 3–4 Minuten",
+              "Während die Nudeln kochen, 1 kleine Zwiebel schälen und möglichst fein würfeln. 15 g Butter in einer großen Pfanne bei mittlerer Hitze schmelzen. Die Zwiebel darin etwa 3–4 Minuten glasig und weich dünsten, ohne sie dunkelbraun werden zu lassen."
+            ],
+            [
+              "Cremige Soße zubereiten · ca. 5 Minuten",
+              "200 ml Kochsahne, 100 ml Gemüsebrühe und 125 g Frischkäse natur zu den Zwiebeln geben. Bei mittlerer Hitze langsam erwärmen und verrühren, bis der Frischkäse aufgelöst ist. Mit ½ TL Paprikapulver edelsüß, zunächst ¼ TL Salz, etwas Pfeffer und optional 1 Prise Muskatnuss würzen. 3–5 Minuten sanft köcheln und leicht eindicken lassen."
+            ],
+            [
+              "Erbsen hinzufügen · 4–5 Minuten",
+              "200 g TK-Erbsen ohne Auftauen direkt in die Soße geben. Gut umrühren und bei mittlerer Hitze 4–5 Minuten köcheln lassen, bis sie vollständig heiß und gar sind."
+            ],
+            [
+              "Nudeln und Soße vermengen · 2 Minuten",
+              "Die abgegossenen Nudeln in die Pfanne geben und gründlich mit der Soße vermischen. Bei niedriger Hitze 1–2 Minuten ziehen lassen. Falls nötig nach und nach 2–4 EL vom aufgehobenen Nudelwasser unterrühren. Mit Salz und Pfeffer abschmecken. Die Nudeln sollen cremig umhüllt sein; wird die Soße beim Stehen fester, etwas warmes Wasser ergänzen."
+            ]
+          ],
+          "status": "complete",
+          "day": "Freitag",
+          "servings": "ca. 3 Portionen",
+          "missingFields": [],
+          "sourceNote": "Aus dem vom Nutzer am 02.11.2026 kopierten Original-Chatverlauf übernommen; Darstellung gestrafft, Mengen und Zubereitungsangaben erhalten. Keine Kalenderdaten belegt.",
+          "time": "25 Minuten",
+          "originalIngredients": [
+            "300 g Nudeln (Fusilli oder Penne)",
+            "200 g TK-Erbsen",
+            "200 ml Kochsahne",
+            "125 g Frischkäse natur",
+            "1 kleine Zwiebel",
+            "1 EL Butter (ca. 15 g)",
+            "100 ml Gemüsebrühe",
+            "½ TL Paprikapulver edelsüß",
+            "Zunächst ¼ TL Salz, später abschmecken",
+            "Etwas frisch gemahlener Pfeffer",
+            "1 Prise Muskatnuss (optional)",
+            "Etwa 3 Liter Wasser und etwas Salz für die Nudeln"
+          ],
+          "sourceStatus": "recovered_original"
         }
       ]
     }
