@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-02-alphabetical-archive",
-  "weekLabel": "Dienstag bis Freitag · 3.–6. November 2026",
-  "dateNote": "Wochenplan vom 2. November · Mengen wie in der freigegebenen Einkaufsliste.",
+  "version": "2026-11-06-sunday-roast",
+  "weekLabel": "Dienstag bis Sonntag · 3.–8. November 2026",
+  "dateNote": "Wochenplan vom 2. November · Sonntagsbraten ergänzt am 6. November.",
   "recipes": [
     {
       "id": "2026-11-03-haehnchen-moehren",
@@ -202,6 +202,80 @@
       ],
       "missingFields": [],
       "image": "assets/hack-zucchini.jpg"
+    },
+    {
+      "id": "2026-11-08-schweinenackenbraten",
+      "day": "Sonntag",
+      "date": "2026-11-08",
+      "name": "Schweinenackenbraten mit Klößen und Blaukraut",
+      "time": "ca. 3 Stunden, mit Reserve · ca. 30 Minuten aktive Arbeit",
+      "servings": "ca. 3 Portionen",
+      "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
+      "sourceNote": "Am 06.11.2026 neu ausgearbeitet und freigegeben. Einfacher Braten in der Glasauflaufform mit milder Bratensoße ohne Zwiebeln.",
+      "missingFields": [],
+      "ingredients": [
+        "800 g Schweinenacken am Stück, ohne Knochen und Schwarte",
+        "150 g Möhren",
+        "1 EL Rapsöl",
+        "1 EL Tomatenmark (ca. 15 g)",
+        "500 ml milde Gemüse- oder Fleischbrühe",
+        "½ TL Salz",
+        "½ TL Paprikapulver edelsüß",
+        "Etwas Pfeffer",
+        "2 TL Speisestärke",
+        "2 EL kaltes Wasser für die Stärke",
+        "6 mittelgroße, fertig geformte Kartoffelklöße aus dem Kühlregal",
+        "450–500 g Apfel-Blaukraut aus dem Glas",
+        "2 EL Wasser für das Blaukraut"
+      ],
+      "steps": [
+        [
+          "Ausstattung und Glasform prüfen",
+          "Bereitlegen: Pfanne, backofengeeignete und unbeschädigte Glasauflaufform, Alufolie, zwei Töpfe, Fleischthermometer, Zange, Holz- oder Silikonlöffel, Sieb und trockener Holz- oder Korkuntersetzer. Glasform bei Raumtemperatur verwenden. Heiße Form später auf den trockenen Untersetzer stellen, niemals auf eine Herdplatte. Keine kalte Flüssigkeit in die heiße Form gießen. Die Hinweise des Formenherstellers haben Vorrang. Insgesamt etwa 3 Stunden plus Reserve einplanen; die Dicke des Fleischstücks bestimmt die Garzeit."
+        ],
+        [
+          "Ofen und Zutaten vorbereiten · ca. 10 Minuten",
+          "Rost auf die zweite Schiene von unten setzen. Ofen auf 160 °C Ober-/Unterhitze vorheizen (übliches Symbol: zwei waagerechte Striche, oben und unten). 150 g Möhren schälen und klein würfeln. 800 g Schweinenacken mit Küchenpapier trocken tupfen und rundherum mit ½ TL Salz, ½ TL Paprikapulver edelsüß und etwas Pfeffer einreiben. Glasform stabil bereitstellen. Hände und Kontaktflächen nach Kontakt mit rohem Fleisch gründlich reinigen."
+        ],
+        [
+          "Fleisch anbraten · ca. 8 Minuten",
+          "1 EL Rapsöl in der Pfanne bei mittlerer bis hoher Hitze erhitzen, als Ausgangspunkt etwa Stufe 6 von 9. Das Öl soll heiß werden, aber nicht rauchen. Braten von den zwei großen Seiten jeweils 2–3 Minuten und von den übrigen Seiten jeweils etwa 1 Minute anbraten. Mit einer Zange wenden. Außen sollen braune Stellen entstehen; innen ist das Fleisch noch roh und gart erst im Ofen durch. Fleisch vorübergehend auf einen Teller legen."
+        ],
+        [
+          "Soßengrundlage zubereiten · ca. 5 Minuten, dann etwas abkühlen",
+          "Hitze auf etwa Stufe 4 von 9 reduzieren. Möhrenwürfel im Bratfett 3 Minuten anbraten. 1 EL Tomatenmark (ca. 15 g) dazugeben und 1 Minute unter Rühren mitrösten. Es darf dunkler werden, aber nicht schwarz. 500 ml Brühe vorsichtig angießen und die braunen Rückstände mit einem Holz- oder Silikonlöffel vom Pfannenboden lösen. Pfanne vom Herd nehmen und die Mischung bis handwarm abkühlen lassen. Möhren und Flüssigkeit in die zimmerwarme Glasform geben und den Braten hineinlegen."
+        ],
+        [
+          "Abdecken und Thermometer setzen",
+          "Form mit Alufolie gut abdecken; die Folie muss das Fleisch nicht berühren. Nur ein ausdrücklich ofenfestes Thermometer darf während des Garens im Ofen bleiben. Seine Spitze seitlich bis in die Mitte der dicksten Fleischstelle stecken, möglichst nicht in eine sichtbare Fettader. Ein reines Einstichthermometer bleibt außerhalb des Ofens und wird nur kurz zum Messen benutzt. Form auf den Rost der zweiten Schiene von unten stellen und bei 160 °C Ober-/Unterhitze garen."
+        ],
+        [
+          "Garzustand prüfen · ungefähr 2–3 Stunden Ofenzeit",
+          "Nach 90 Minuten erstmals messen, danach ungefähr alle 20 Minuten. Ziel: etwa 85–88 °C Kerntemperatur und zartes Fleisch. Die höhere Temperatur dient beim Schweinenacken der Zartheit. Eine Gabel soll leicht hinein- und wieder herausgehen. Ist das Fleisch noch deutlich fest, abgedeckt weitere 15–20 Minuten garen und erneut prüfen. Beim Öffnen der Folie auf heißen Dampf achten. Die Flüssigkeit darf nicht vollständig verdampfen. Zeitangaben sind Richtwerte; Thermometer und Zartheitsprobe entscheiden."
+        ],
+        [
+          "Klöße rechtzeitig starten · Packungsangabe beachten",
+          "Wenn der Braten ungefähr 80 °C Kerntemperatur erreicht hat, einen ausreichend großen Topf Wasser für 6 mittelgroße, fertig geformte Kartoffelklöße aufsetzen. Koch- und Ziehzeit der Packung beachten. Viele Klöße sollen in heißem Wasser nur ziehen, da sprudelndes Kochen sie zerfallen lassen kann. Die Packungsanleitung hat Vorrang."
+        ],
+        [
+          "Blaukraut erwärmen",
+          "450–500 g Apfel-Blaukraut aus dem Glas mit 2 EL Wasser in einen kleinen Topf geben. Zugedeckt auf niedriger bis mittlerer Stufe nach Packungsangabe erwärmen und gelegentlich umrühren. Parallel zu den Klößen zubereiten."
+        ],
+        [
+          "Braten ruhen lassen · 10 Minuten",
+          "Fertigen Braten aus dem Ofen nehmen. Heiße Glasform mit trockenen Topfhandschuhen auf den trockenen Untersetzer stellen. Braten auf ein Brett mit Saftrille legen, locker mit Folie abdecken und 10 Minuten ruhen lassen. In dieser Zeit die Soße fertigstellen."
+        ],
+        [
+          "Soße binden · während der Ruhezeit",
+          "Sud samt Möhren vorsichtig aus der Glasform in einen Topf gießen. Für eine glatte Soße durch ein Sieb geben und die weichen Möhren etwas ausdrücken. Sehr viel oben schwimmendes Fett mit einem Löffel abschöpfen. 2 TL Speisestärke mit 2 EL kaltem Wasser glatt rühren. Soße aufkochen, zunächst die Hälfte der Stärkemischung einrühren und 1 Minute köcheln lassen. Bei Bedarf den Rest portionsweise hinzufügen. Probieren und erst jetzt nachsalzen. Zu dick: esslöffelweise Wasser ergänzen. Zu dünn: etwas weitere Stärkemischung verwenden."
+        ],
+        [
+          "Aufschneiden und servieren",
+          "Falls vorhanden, Netz oder Küchengarn entfernen. Fleisch quer zur sichtbaren Faserrichtung in etwa 1 cm dicke Scheiben schneiden. Mit Klößen, Blaukraut und reichlich Soße anrichten. Beim ersten Braten sind Thermometer und Zartheitsprobe wichtiger als eine minutengenaue Garzeit."
+        ]
+      ],
+      "image": "assets/schweinenackenbraten.jpg"
     }
   ],
   "archiveWeeks": [
