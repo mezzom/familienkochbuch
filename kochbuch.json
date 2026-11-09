@@ -1,284 +1,497 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-06-sunday-roast",
-  "weekLabel": "Dienstag bis Sonntag · 3.–8. November 2026",
-  "dateNote": "Wochenplan vom 2. November · Sonntagsbraten ergänzt am 6. November.",
+  "version": "2026-11-09-week-46",
+  "weekLabel": "Montag bis Freitag · 9.–13. November 2026 · Mittwoch frei",
+  "dateNote": "Freigegebener Wochenplan vom 9. November · vier neu ausgearbeitete Rezepte.",
   "recipes": [
     {
-      "id": "2026-11-03-haehnchen-moehren",
-      "day": "Dienstag",
-      "date": "2026-11-03",
-      "name": "Hähnchen in Möhren-Rahmsoße mit Reis",
-      "time": "35–40 Minuten",
       "servings": "ca. 3 Portionen",
       "status": "complete",
       "sourceStatus": "newly_created_from_approved_plan",
+      "sourceNote": "Am 09.11.2026 aus dem freigegebenen Wochenplan neu ausgearbeitet.",
+      "missingFields": [],
+      "id": "2026-11-09-kartoffelsuppe",
+      "day": "Montag",
+      "date": "2026-11-09",
+      "name": "Kartoffel-Möhren-Suppe mit Wiener Würstchen und Brot",
+      "time": "30–35 Minuten",
+      "image": "assets/kartoffelsuppe-wiener.jpg",
       "ingredients": [
-        "350 g Hähnchenbrust",
+        "650 g mehligkochende Kartoffeln",
         "300 g Möhren",
-        "1 Zwiebel",
-        "200 ml Kochsahne",
-        "150 ml Gemüsebrühe",
+        "1 kleine Zwiebel",
         "10 g Butter",
-        "1 EL Rapsöl",
-        "1 TL Paprikapulver edelsüß",
+        "800 ml milde Gemüsebrühe",
+        "100 ml Milch",
+        "200 g Wiener Würstchen",
+        "150 g Brot",
         "Salz und Pfeffer nach Geschmack",
+        "1 kleine Prise Muskatnuss"
+      ],
+      "steps": [
+        [
+          "Gemüse vorbereiten · 8–10 Minuten",
+          "650 g Kartoffeln und 300 g Möhren schälen. Kartoffeln in etwa 1–1,5 cm große Würfel, Möhren in etwa 5 mm kleine Würfel oder dünne Scheiben schneiden. 1 kleine Zwiebel sehr fein würfeln."
+        ],
+        [
+          "Zwiebel weich dünsten · 4 Minuten",
+          "10 g Butter in einem ausreichend großen Topf bei mittlerer Hitze, etwa Stufe 4 von 9, schmelzen. Zwiebelwürfel darin 4 Minuten glasig und weich dünsten, ohne sie braun werden zu lassen. Kartoffeln und Möhren zugeben und 1 Minute unter Rühren mitdünsten."
+        ],
+        [
+          "Suppe kochen · 18–20 Minuten",
+          "800 ml milde Gemüsebrühe angießen. Auf hoher Stufe kurz aufkochen, dann auf etwa Stufe 3 von 9 reduzieren. Mit leicht geöffnetem Deckel 18–20 Minuten sanft köcheln lassen. Kartoffeln und Möhren sollen sich mit der Gabel leicht zerdrücken lassen; bei Bedarf einige Minuten länger kochen."
+        ],
+        [
+          "Sämig stampfen und Milch zugeben",
+          "Topf kurz vom Herd nehmen. Mit einem Kartoffelstampfer einen Teil der Kartoffeln direkt im Topf zerdrücken; kleine weiche Gemüsestückchen dürfen bleiben. 100 ml Milch einrühren. Auf niedriger Hitze erwärmen. Bei zu dicker Suppe esslöffelweise Wasser ergänzen."
+        ],
+        [
+          "Würstchen erwärmen · 4–5 Minuten",
+          "200 g Wiener Würstchen in dünne Scheiben schneiden, zur Suppe geben und bei niedriger Hitze 4–5 Minuten gründlich erwärmen. Die Suppe nur leicht simmern lassen; Hinweise auf der Würstchenpackung beachten. Mit 1 kleinen Prise Muskatnuss, Pfeffer und erst nach dem Probieren etwas Salz abschmecken."
+        ],
+        [
+          "Mit Brot servieren",
+          "150 g Brot in Scheiben schneiden. Suppe in Schalen füllen und mit dem Brot servieren. Vor dem Essen kurz abkühlen lassen: Sämige Kartoffelsuppe bleibt lange heiß."
+        ]
+      ]
+    },
+    {
+      "servings": "ca. 3 Portionen",
+      "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
+      "sourceNote": "Am 09.11.2026 aus dem freigegebenen Wochenplan neu ausgearbeitet.",
+      "missingFields": [],
+      "id": "2026-11-10-bandnudeln",
+      "day": "Dienstag",
+      "date": "2026-11-10",
+      "name": "Bandnudeln mit Schweinefiletstreifen in Champignonrahm",
+      "time": "30–35 Minuten",
+      "image": "assets/bandnudeln-schweinefilet.jpg",
+      "ingredients": [
+        "300 g Bandnudeln, ungekocht",
+        "350 g Schweinefilet",
+        "250 g Champignons",
+        "1 kleine Zwiebel",
+        "200 ml Kochsahne",
+        "150 ml milde Gemüsebrühe",
+        "1 EL Rapsöl",
+        "10 g Butter",
+        "Salz und Pfeffer nach Geschmack",
+        "Wasser und etwas Salz für die Nudeln nach Packungsangabe"
+      ],
+      "steps": [
+        [
+          "Pilze, Zwiebel und Fleisch vorbereiten · 8 Minuten",
+          "250 g Champignons putzen und sehr fein schneiden oder klein hacken, damit später weiche kleine Stücke entstehen. 1 kleine Zwiebel fein würfeln. 350 g Schweinefilet von einer eventuell vorhandenen silbrigen Sehne befreien und quer zur Faser in etwa 1 cm dicke Streifen schneiden. Dafür ein separates Brett verwenden; anschließend Hände und Kontaktflächen reinigen."
+        ],
+        [
+          "Nudeln parallel aufsetzen",
+          "Einen großen Topf mit Wasser aufkochen und leicht salzen. 300 g Bandnudeln nach Packungsanleitung garen. Vor dem Abgießen etwa 150 ml Nudelwasser auffangen. Die Nudelgarzeit so wählen, dass sie ungefähr zusammen mit der Soße fertig werden."
+        ],
+        [
+          "Schweinefilet anbraten · 4–5 Minuten",
+          "1 EL Rapsöl in einer großen Pfanne bei mittlerer bis hoher Hitze, etwa Stufe 6 von 9, erhitzen. Fleisch möglichst in zwei Portionen insgesamt 4–5 Minuten rundherum leicht anbraten. Es gart später in der Soße fertig. Auf einen Teller geben."
+        ],
+        [
+          "Zwiebel und Pilze weich garen · 8–10 Minuten",
+          "Hitze auf Stufe 4–5 von 9 reduzieren. 10 g Butter in die Pfanne geben. Zwiebel 3 Minuten weich dünsten, dann die fein geschnittenen Champignons hinzufügen. Weitere 5–7 Minuten unter Rühren braten, bis die Pilze weich sind und ausgetretenes Wasser weitgehend verdampft ist."
+        ],
+        [
+          "Rahmsoße und Fleisch fertig garen · 5–7 Minuten",
+          "150 ml Gemüsebrühe und 200 ml Kochsahne angießen. Auf Stufe 3–4 von 9 etwa 2 Minuten sanft köcheln lassen. Fleisch samt Saft zurückgeben und weitere 3–5 Minuten sanft garen, bis die Streifen vollständig durchgegart sind. Bei größeren Stücken länger garen; zur Kontrolle mindestens 70 °C im Kern für 2 Minuten halten. Mit Salz und Pfeffer abschmecken."
+        ],
+        [
+          "Bandnudeln unterheben und servieren",
+          "Abgegossene Bandnudeln in die Soße geben und gründlich vermengen. Wird die Soße zu dick, nach und nach 2–4 EL des aufgefangenen Nudelwassers einrühren. Eine Minute auf niedriger Hitze ziehen lassen und servieren."
+        ]
+      ]
+    },
+    {
+      "servings": "ca. 3 Portionen",
+      "status": "complete",
+      "sourceStatus": "newly_created_from_approved_plan",
+      "sourceNote": "Am 09.11.2026 aus dem freigegebenen Wochenplan neu ausgearbeitet.",
+      "missingFields": [],
+      "id": "2026-11-12-gemuesereis",
+      "day": "Donnerstag",
+      "date": "2026-11-12",
+      "name": "Milde Gemüse-Reispfanne mit Rührei und Mais",
+      "time": "ca. 30 Minuten",
+      "image": "assets/gemuesereis-ruehrei.jpg",
+      "ingredients": [
         "250 g Reis, ungekocht",
+        "200 g Möhren",
+        "100 g Mais aus der Dose, Abtropfgewicht",
+        "1 kleine Zwiebel",
+        "4 Eier, Größe M",
+        "50 ml Milch",
+        "150 ml milde Gemüsebrühe",
+        "1 EL Rapsöl",
+        "½ TL Paprikapulver edelsüß",
+        "Salz und Pfeffer nach Geschmack",
         "Wasser für den Reis nach Packungsangabe"
       ],
       "steps": [
         [
-          "Vorbereiten · 5–7 Minuten",
-          "300 g Möhren schälen und in etwa 5 mm kleine Würfel oder sehr dünne halbe Scheiben schneiden. 1 Zwiebel fein würfeln. 350 g Hähnchenbrust auf einem separaten Brett in kleine mundgerechte Streifen schneiden."
+          "Reis kochen · nach Packungsangabe",
+          "250 g Reis mit Wasser nach Packungsanleitung aufsetzen und leicht salzen. Bei vielen Sorten sind es etwa 500 ml Wasser; die Packungsangabe hat Vorrang. Bei niedriger Hitze zugedeckt garen. Währenddessen Gemüse und Eier vorbereiten."
         ],
         [
-          "Reis parallel aufsetzen",
-          "250 g Reis mit Wasser und etwas Salz nach Packungsanleitung garen. Die Wassermenge richtet sich nach der Reissorte. Auf niedriger Hitze mit Deckel garen, anschließend nach Packungsangabe ruhen lassen."
+          "Gemüse klein schneiden · 5 Minuten",
+          "200 g Möhren schälen und in etwa 5 mm kleine Würfel schneiden. 1 kleine Zwiebel sehr fein würfeln. Mais aus der Dose abgießen und 100 g abgetropften Mais abwiegen."
         ],
         [
-          "Hähnchen anbraten · 4–5 Minuten",
-          "1 EL Rapsöl in einer großen Pfanne bei Stufe 6 von 9 erhitzen. Hähnchenstreifen rundherum 4–5 Minuten leicht bräunen. Auf einen Teller geben; das Fleisch wird später in der Soße vollständig fertig gegart."
+          "Möhren weich garen · 12–15 Minuten",
+          "½ EL Rapsöl in einer großen Pfanne bei mittlerer Hitze, etwa Stufe 4 von 9, erhitzen. Zwiebel 3 Minuten weich dünsten. Möhren zugeben und 2 Minuten mitdünsten. 150 ml Gemüsebrühe angießen, Deckel auflegen und bei Stufe 3–4 weitere 8–10 Minuten sanft garen. Die Möhren müssen leicht mit einer Gabel zerdrückbar sein. Falls nötig länger garen und bei trockener Pfanne etwas Wasser ergänzen."
         ],
         [
-          "Möhren sehr weich dünsten · 12–15 Minuten",
-          "Hitze auf Stufe 4–5 von 9 reduzieren. 10 g Butter und die Zwiebel in die Pfanne geben und 2 Minuten glasig dünsten. Möhren und 150 ml Gemüsebrühe ergänzen. Mit Deckel 10–13 Minuten sanft dünsten, bis die kleinen Möhrenstücke sehr weich sind. Falls nötig etwas Wasser ergänzen und länger garen."
+          "Rührei separat zubereiten · 4–5 Minuten",
+          "4 Eier mit 50 ml Milch, wenig Salz und etwas Pfeffer verquirlen. Restlichen ½ EL Rapsöl in einer zweiten Pfanne bei mittlerer bis niedriger Hitze, etwa Stufe 3–4 von 9, erwärmen. Eier hineingeben und mit einem Pfannenwender langsam vom Rand zur Mitte schieben, bis sie vollständig gestockt sind und keine flüssigen Stellen mehr zeigen. Nicht stark bräunen."
         ],
         [
-          "Rahmsoße und Hähnchen fertig garen · 5–7 Minuten",
-          "200 ml Kochsahne und 1 TL Paprikapulver unterrühren. Hähnchen samt Fleischsaft dazugeben. Bei Stufe 3–4 von 9 mindestens 5–7 Minuten sanft köcheln; das Fleisch muss vollständig durchgegart sein. Mit einem Küchenthermometer prüfen: mindestens 74 °C im Inneren. Bei Bedarf länger garen."
+          "Reis und Mais zum Gemüse geben · 2–3 Minuten",
+          "Wenn die Möhren weich sind, Deckel abnehmen und überschüssige Flüssigkeit kurz einkochen lassen. Gekochten Reis, 100 g abgetropften Mais und ½ TL Paprikapulver edelsüß untermischen. Auf mittlerer bis niedriger Hitze 2–3 Minuten unter Wenden gründlich erwärmen. Bei Bedarf 1–2 EL Wasser zugeben."
         ],
         [
-          "Abschmecken und servieren",
-          "Mild mit Salz und Pfeffer abschmecken. Zu dicke Soße mit etwas Wasser verdünnen, zu dünne kurz ohne Deckel einkochen. Reis auflockern und mit Hähnchen und reichlich Möhren-Rahmsoße servieren."
+          "Rührei unterheben und abschmecken",
+          "Vollständig gestocktes Rührei vorsichtig unter den Gemüsereis heben. Probieren und mit wenig Salz und Pfeffer abschmecken. Direkt servieren."
         ]
-      ],
-      "missingFields": [],
-      "image": "assets/moehren-haehnchen.jpg"
+      ]
     },
     {
-      "id": "2026-11-04-gnocchi-spinat",
-      "day": "Mittwoch",
-      "date": "2026-11-04",
-      "name": "Cremige Gnocchi-Pfanne mit Spinat",
-      "time": "25–30 Minuten",
       "servings": "ca. 3 Portionen",
       "status": "complete",
       "sourceStatus": "newly_created_from_approved_plan",
-      "ingredients": [
-        "600 g Gnocchi",
-        "200 g TK-Blattspinat, ungewürzt",
-        "1 Zwiebel",
-        "1 Knoblauchzehe",
-        "200 ml Kochsahne",
-        "100 g Frischkäse natur",
-        "100 ml Gemüsebrühe",
-        "1 kleine Prise Muskatnuss",
-        "Salz und Pfeffer nach Geschmack"
-      ],
-      "steps": [
-        [
-          "Spinat und Gemüse vorbereiten",
-          "200 g TK-Blattspinat nach Packungsangabe auftauen oder direkt zum Garen bereitstellen. Aufgetauten Blattspinat fein hacken, damit keine langen Blätter oder festen Stücke bleiben. 1 Zwiebel und 1 Knoblauchzehe sehr fein würfeln."
-        ],
-        [
-          "Zwiebel weich garen · 5–6 Minuten",
-          "Zwiebel mit 100 ml Gemüsebrühe in eine große tiefe Pfanne geben. Bei Stufe 4–5 von 9 mit Deckel 5–6 Minuten sanft garen, bis sie weich ist. Bei Bedarf etwas Wasser ergänzen. Knoblauch dazugeben und 1 Minute mitgaren."
-        ],
-        [
-          "Spinat vollständig garen",
-          "Spinat dazugeben und unter gelegentlichem Rühren vollständig erhitzen und weich garen. Die Mindestgarzeit und Zubereitungshinweise auf der TK-Packung beachten; gefrorene Portionen brauchen länger als aufgetaute. Bei Bedarf etwas Wasser ergänzen."
-        ],
-        [
-          "Cremige Soße anrühren · 2–3 Minuten",
-          "200 ml Kochsahne und 100 g Frischkäse dazugeben. Bei Stufe 3–4 von 9 unter Rühren erhitzen, bis sich der Frischkäse aufgelöst hat. Mit einer kleinen Prise Muskatnuss, Salz und Pfeffer mild würzen."
-        ],
-        [
-          "Gnocchi garen · nach Packungsangabe",
-          "600 g Gnocchi in der Soße bei niedriger bis mittlerer Hitze gar ziehen lassen, sofern die Packung das Garen direkt in einer Pfanne erlaubt; meist etwa 5–8 Minuten. Regelmäßig vorsichtig wenden und bei Bedarf etwas Wasser ergänzen. Gnocchi, die laut Packung zuvor in Wasser gekocht werden müssen, separat so zubereiten und anschließend in die Soße geben."
-        ],
-        [
-          "Servieren",
-          "Prüfen, ob die Gnocchi bis innen heiß und weich sind. Die Soße soll cremig bleiben und die Gnocchi gut umhüllen. Nochmals mild abschmecken und sofort servieren."
-        ]
-      ],
+      "sourceNote": "Am 09.11.2026 aus dem freigegebenen Wochenplan neu ausgearbeitet.",
       "missingFields": [],
-      "image": "assets/gnocchi-spinat.jpg"
-    },
-    {
-      "id": "2026-11-05-stampf-ruehrei",
-      "day": "Donnerstag",
-      "date": "2026-11-05",
-      "name": "Kartoffel-Möhren-Stampf mit Rührei",
-      "time": "30–35 Minuten",
-      "servings": "ca. 3 Portionen",
-      "status": "complete",
-      "sourceStatus": "newly_created_from_approved_plan",
-      "ingredients": [
-        "900 g mehligkochende Kartoffeln",
-        "400 g Möhren",
-        "6 Eier",
-        "150 ml Milch (100 ml Stampf, 50 ml Rührei)",
-        "30 g Butter (20 g Stampf, 10 g Rührei)",
-        "1 kleine Prise Muskatnuss",
-        "Salz und Pfeffer nach Geschmack",
-        "Wasser zum Kochen"
-      ],
-      "steps": [
-        [
-          "Gemüse vorbereiten · 7–10 Minuten",
-          "900 g Kartoffeln und 400 g Möhren schälen. Kartoffeln in etwa 2 cm große Stücke schneiden. Möhren kleiner schneiden, etwa 1 cm, damit beides gleichzeitig schön weich wird."
-        ],
-        [
-          "Sehr weich kochen · 18–22 Minuten",
-          "Kartoffeln und Möhren in einen großen Topf geben, knapp mit Wasser bedecken und leicht salzen. Aufkochen, dann bei mittlerer Hitze 18–22 Minuten sanft kochen. Beide Gemüsesorten müssen sich mühelos mit einer Gabel zerdrücken lassen; gegebenenfalls länger garen."
-        ],
-        [
-          "Rührei vorbereiten",
-          "6 Eier in einer Schüssel mit 50 ml Milch, wenig Salz und etwas Pfeffer verquirlen. 100 ml Milch für den Stampf separat sanft erwärmen, ohne sie kochen zu lassen."
-        ],
-        [
-          "Stampf zubereiten · 3–4 Minuten",
-          "Gemüse abgießen und 1 Minute ausdampfen lassen. 20 g Butter und zunächst einen Teil der 100 ml warmen Milch dazugeben. Mit einem Kartoffelstampfer weich zerdrücken und die übrige Milch nach Bedarf unterarbeiten. Mit einer kleinen Prise Muskatnuss und Salz abschmecken. Zugedeckt warm halten; keinen Pürierstab verwenden."
-        ],
-        [
-          "Rührei sanft stocken lassen · 5–7 Minuten",
-          "10 g Butter in einer beschichteten Pfanne bei niedriger bis mittlerer Hitze, etwa Stufe 3–4 von 9, schmelzen. Eiermasse hineingeben. Mit einem Pfannenwender langsam vom Rand zur Mitte schieben. Sanft garen, bis das Ei vollständig gestockt, aber noch weich ist; bei Bedarf etwas länger garen."
-        ],
-        [
-          "Anrichten",
-          "Kartoffel-Möhren-Stampf und Rührei nebeneinander auf Teller geben und direkt servieren. Kleine weiche Möhrenstückchen im Stampf dürfen bleiben."
-        ]
-      ],
-      "missingFields": [],
-      "image": "assets/stampf-ruehrei.jpg"
-    },
-    {
-      "id": "2026-11-06-hack-zucchini",
+      "id": "2026-11-13-ofenhaehnchen",
       "day": "Freitag",
-      "date": "2026-11-06",
-      "name": "Nudeln mit milder Hackfleisch-Zucchini-Tomatensoße",
-      "time": "30–35 Minuten",
-      "servings": "ca. 3 Portionen",
-      "status": "complete",
-      "sourceStatus": "newly_created_from_approved_plan",
+      "date": "2026-11-13",
+      "name": "Ofenhähnchenschenkel mit Kartoffelspalten und Möhren",
+      "time": "70–85 Minuten, je nach Größe · ca. 15 Minuten aktive Arbeit",
+      "image": "assets/haehnchenschenkel-ofen.jpg",
       "ingredients": [
-        "300 g Nudeln",
-        "250 g Rinderhackfleisch",
-        "1 mittelgroße Zucchini",
-        "1 Zwiebel",
-        "1 Knoblauchzehe",
-        "500 g passierte Tomaten",
-        "1 EL Rapsöl",
-        "1 TL italienische Kräuter",
-        "½ TL Paprikapulver edelsüß",
-        "Salz und Pfeffer nach Geschmack",
-        "Wasser für die Nudeln; etwas Nudelwasser für die Soße"
+        "3 ganze Hähnchenschenkel mit Knochen und Haut (zusammen ca. 900 g)",
+        "900 g Kartoffeln, vorwiegend festkochend",
+        "600 g Möhren",
+        "2 EL Rapsöl",
+        "1 TL Paprikapulver edelsüß",
+        "½ TL Salz, später bei Bedarf abschmecken",
+        "Etwas Pfeffer"
       ],
       "steps": [
         [
-          "Alles klein schneiden · 5 Minuten",
-          "1 Zwiebel und 1 Knoblauchzehe schälen und fein würfeln. Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder grob raspeln. Einen großen Topf Nudelwasser aufsetzen."
+          "Ofen und Blech vorbereiten",
+          "Ofen auf 200 °C Ober-/Unterhitze vorheizen, Rost beziehungsweise Blechschiene im unteren Mittelfeld wählen. Ein großes Metall-Backblech leicht einölen oder mit für 200 °C geeignetem Backpapier auslegen. Gemüse und Fleisch sollen möglichst in einer Lage liegen. Keine Grillfunktion verwenden."
         ],
         [
-          "Hackfleisch anbraten · 5–7 Minuten",
-          "1 EL Rapsöl in einer großen Pfanne bei Stufe 6 von 9 erhitzen. 250 g Rinderhackfleisch hineingeben und mit dem Pfannenwender fein zerteilen. Unter Wenden 5–7 Minuten kräftig anbraten."
+          "Kartoffeln und Möhren schneiden · 10 Minuten",
+          "900 g Kartoffeln gründlich waschen, nach Wunsch schälen und in höchstens etwa 2 cm dicke Spalten schneiden. 600 g Möhren schälen und in etwa 1 cm dicke Stücke schneiden; dicke Möhren längs halbieren. So werden die Möhren im Ofen weich."
         ],
         [
-          "Gemüse weich garen · 8–10 Minuten",
-          "Hitze auf Stufe 4–5 von 9 reduzieren. Zwiebel und Zucchini zum Hack geben und 3 Minuten mitgaren. Etwa 3 EL Wasser ergänzen, Deckel auflegen und 5–7 Minuten sanft dünsten, bis das Gemüse sehr weich ist. Knoblauch zuletzt 1 Minute mitgaren."
+          "Gemüse würzen und verteilen",
+          "Kartoffeln und Möhren mit 1 EL Rapsöl, ¼ TL Salz, ½ TL Paprikapulver edelsüß und wenig Pfeffer mischen. Auf dem Blech verteilen und Platz für die Hähnchenschenkel lassen."
         ],
         [
-          "Tomatensoße köcheln · 10–12 Minuten",
-          "500 g passierte Tomaten, 1 TL italienische Kräuter und ½ TL Paprikapulver ergänzen. Mild mit Salz und Pfeffer würzen. Bei niedriger bis mittlerer Hitze 10–12 Minuten sanft köcheln und gelegentlich umrühren. Das Hackfleisch muss vollständig durchgegart sein."
+          "Hähnchen vorbereiten · 5 Minuten",
+          "3 Hähnchenschenkel (zusammen ca. 900 g) mit Küchenpapier trocken tupfen, nicht abwaschen. Mit restlichem 1 EL Rapsöl, ¼ TL Salz, ½ TL Paprikapulver edelsüß und etwas Pfeffer einreiben. Mit der Hautseite nach oben zwischen das Gemüse legen. Hände, Brett und Kontaktflächen nach Kontakt mit rohem Geflügel gründlich reinigen."
         ],
         [
-          "Nudeln parallel kochen",
-          "300 g Nudeln in leicht gesalzenem Wasser nach Packungsangabe garen. Vor dem Abgießen eine Tasse Nudelwasser auffangen."
+          "Im Ofen garen · ungefähr 50–65 Minuten",
+          "Blech in den vorgeheizten Ofen schieben und bei 200 °C Ober-/Unterhitze garen. Nach etwa 25–30 Minuten Kartoffeln und Möhren vorsichtig wenden; Hähnchen mit der Haut nach oben liegen lassen. Wird eine Stelle zu dunkel, locker mit Alufolie abdecken. Das Hähnchen und alles mit rohem Fleischsaft in Kontakt gekommene Gemüse müssen vollständig durchgaren."
         ],
         [
-          "Vermengen und servieren",
-          "Nudeln mit der fertigen Soße vermischen. Bei Bedarf etwas Nudelwasser ergänzen, bis die Soße schön sämig ist. Nochmals mild abschmecken und servieren."
+          "Kerntemperatur und Gemüse prüfen",
+          "Ab etwa 45 Minuten Ofenzeit mit einem sauberen Fleischthermometer an der dicksten Stelle jedes Schenkels messen, ohne den Knochen zu berühren. Ziel sind mindestens 75 °C Kerntemperatur. Bei niedrigeren Werten in 5–10-Minuten-Schritten weitergaren und erneut prüfen. Große Schenkel können länger brauchen. Kartoffeln und Möhren müssen sich leicht mit einer Gabel durchstechen lassen."
+        ],
+        [
+          "Kurz ruhen lassen und servieren · 5 Minuten",
+          "Fertige Hähnchenschenkel 5 Minuten ruhen lassen. Fleisch beim Portionieren vom Knochen lösen und sorgfältig auf kleine Knochenstücke prüfen. Mit Kartoffelspalten und weichen Möhren servieren."
         ]
-      ],
-      "missingFields": [],
-      "image": "assets/hack-zucchini.jpg"
-    },
-    {
-      "id": "2026-11-08-schweinenackenbraten",
-      "day": "Sonntag",
-      "date": "2026-11-08",
-      "name": "Schweinenackenbraten mit Klößen und Blaukraut",
-      "time": "ca. 3 Stunden, mit Reserve · ca. 30 Minuten aktive Arbeit",
-      "servings": "ca. 3 Portionen",
-      "status": "complete",
-      "sourceStatus": "newly_created_from_approved_plan",
-      "sourceNote": "Am 06.11.2026 neu ausgearbeitet und freigegeben. Einfacher Braten in der Glasauflaufform mit milder Bratensoße ohne Zwiebeln.",
-      "missingFields": [],
-      "ingredients": [
-        "800 g Schweinenacken am Stück, ohne Knochen und Schwarte",
-        "150 g Möhren",
-        "1 EL Rapsöl",
-        "1 EL Tomatenmark (ca. 15 g)",
-        "500 ml milde Gemüse- oder Fleischbrühe",
-        "½ TL Salz",
-        "½ TL Paprikapulver edelsüß",
-        "Etwas Pfeffer",
-        "2 TL Speisestärke",
-        "2 EL kaltes Wasser für die Stärke",
-        "6 mittelgroße, fertig geformte Kartoffelklöße aus dem Kühlregal",
-        "450–500 g Apfel-Blaukraut aus dem Glas",
-        "2 EL Wasser für das Blaukraut"
-      ],
-      "steps": [
-        [
-          "Ausstattung und Glasform prüfen",
-          "Bereitlegen: Pfanne, backofengeeignete und unbeschädigte Glasauflaufform, Alufolie, zwei Töpfe, Fleischthermometer, Zange, Holz- oder Silikonlöffel, Sieb und trockener Holz- oder Korkuntersetzer. Glasform bei Raumtemperatur verwenden. Heiße Form später auf den trockenen Untersetzer stellen, niemals auf eine Herdplatte. Keine kalte Flüssigkeit in die heiße Form gießen. Die Hinweise des Formenherstellers haben Vorrang. Insgesamt etwa 3 Stunden plus Reserve einplanen; die Dicke des Fleischstücks bestimmt die Garzeit."
-        ],
-        [
-          "Ofen und Zutaten vorbereiten · ca. 10 Minuten",
-          "Rost auf die zweite Schiene von unten setzen. Ofen auf 160 °C Ober-/Unterhitze vorheizen (übliches Symbol: zwei waagerechte Striche, oben und unten). 150 g Möhren schälen und klein würfeln. 800 g Schweinenacken mit Küchenpapier trocken tupfen und rundherum mit ½ TL Salz, ½ TL Paprikapulver edelsüß und etwas Pfeffer einreiben. Glasform stabil bereitstellen. Hände und Kontaktflächen nach Kontakt mit rohem Fleisch gründlich reinigen."
-        ],
-        [
-          "Fleisch anbraten · ca. 8 Minuten",
-          "1 EL Rapsöl in der Pfanne bei mittlerer bis hoher Hitze erhitzen, als Ausgangspunkt etwa Stufe 6 von 9. Das Öl soll heiß werden, aber nicht rauchen. Braten von den zwei großen Seiten jeweils 2–3 Minuten und von den übrigen Seiten jeweils etwa 1 Minute anbraten. Mit einer Zange wenden. Außen sollen braune Stellen entstehen; innen ist das Fleisch noch roh und gart erst im Ofen durch. Fleisch vorübergehend auf einen Teller legen."
-        ],
-        [
-          "Soßengrundlage zubereiten · ca. 5 Minuten, dann etwas abkühlen",
-          "Hitze auf etwa Stufe 4 von 9 reduzieren. Möhrenwürfel im Bratfett 3 Minuten anbraten. 1 EL Tomatenmark (ca. 15 g) dazugeben und 1 Minute unter Rühren mitrösten. Es darf dunkler werden, aber nicht schwarz. 500 ml Brühe vorsichtig angießen und die braunen Rückstände mit einem Holz- oder Silikonlöffel vom Pfannenboden lösen. Pfanne vom Herd nehmen und die Mischung bis handwarm abkühlen lassen. Möhren und Flüssigkeit in die zimmerwarme Glasform geben und den Braten hineinlegen."
-        ],
-        [
-          "Abdecken und Thermometer setzen",
-          "Form mit Alufolie gut abdecken; die Folie muss das Fleisch nicht berühren. Nur ein ausdrücklich ofenfestes Thermometer darf während des Garens im Ofen bleiben. Seine Spitze seitlich bis in die Mitte der dicksten Fleischstelle stecken, möglichst nicht in eine sichtbare Fettader. Ein reines Einstichthermometer bleibt außerhalb des Ofens und wird nur kurz zum Messen benutzt. Form auf den Rost der zweiten Schiene von unten stellen und bei 160 °C Ober-/Unterhitze garen."
-        ],
-        [
-          "Garzustand prüfen · ungefähr 2–3 Stunden Ofenzeit",
-          "Nach 90 Minuten erstmals messen, danach ungefähr alle 20 Minuten. Ziel: etwa 85–88 °C Kerntemperatur und zartes Fleisch. Die höhere Temperatur dient beim Schweinenacken der Zartheit. Eine Gabel soll leicht hinein- und wieder herausgehen. Ist das Fleisch noch deutlich fest, abgedeckt weitere 15–20 Minuten garen und erneut prüfen. Beim Öffnen der Folie auf heißen Dampf achten. Die Flüssigkeit darf nicht vollständig verdampfen. Zeitangaben sind Richtwerte; Thermometer und Zartheitsprobe entscheiden."
-        ],
-        [
-          "Klöße rechtzeitig starten · Packungsangabe beachten",
-          "Wenn der Braten ungefähr 80 °C Kerntemperatur erreicht hat, einen ausreichend großen Topf Wasser für 6 mittelgroße, fertig geformte Kartoffelklöße aufsetzen. Koch- und Ziehzeit der Packung beachten. Viele Klöße sollen in heißem Wasser nur ziehen, da sprudelndes Kochen sie zerfallen lassen kann. Die Packungsanleitung hat Vorrang."
-        ],
-        [
-          "Blaukraut erwärmen",
-          "450–500 g Apfel-Blaukraut aus dem Glas mit 2 EL Wasser in einen kleinen Topf geben. Zugedeckt auf niedriger bis mittlerer Stufe nach Packungsangabe erwärmen und gelegentlich umrühren. Parallel zu den Klößen zubereiten."
-        ],
-        [
-          "Braten ruhen lassen · 10 Minuten",
-          "Fertigen Braten aus dem Ofen nehmen. Heiße Glasform mit trockenen Topfhandschuhen auf den trockenen Untersetzer stellen. Braten auf ein Brett mit Saftrille legen, locker mit Folie abdecken und 10 Minuten ruhen lassen. In dieser Zeit die Soße fertigstellen."
-        ],
-        [
-          "Soße binden · während der Ruhezeit",
-          "Sud samt Möhren vorsichtig aus der Glasform in einen Topf gießen. Für eine glatte Soße durch ein Sieb geben und die weichen Möhren etwas ausdrücken. Sehr viel oben schwimmendes Fett mit einem Löffel abschöpfen. 2 TL Speisestärke mit 2 EL kaltem Wasser glatt rühren. Soße aufkochen, zunächst die Hälfte der Stärkemischung einrühren und 1 Minute köcheln lassen. Bei Bedarf den Rest portionsweise hinzufügen. Probieren und erst jetzt nachsalzen. Zu dick: esslöffelweise Wasser ergänzen. Zu dünn: etwas weitere Stärkemischung verwenden."
-        ],
-        [
-          "Aufschneiden und servieren",
-          "Falls vorhanden, Netz oder Küchengarn entfernen. Fleisch quer zur sichtbaren Faserrichtung in etwa 1 cm dicke Scheiben schneiden. Mit Klößen, Blaukraut und reichlich Soße anrichten. Beim ersten Braten sind Thermometer und Zartheitsprobe wichtiger als eine minutengenaue Garzeit."
-        ]
-      ],
-      "image": "assets/schweinenackenbraten.jpg"
+      ]
     }
   ],
   "archiveWeeks": [
+    {
+      "version": "2026-11-06-sunday-roast",
+      "weekLabel": "Dienstag bis Sonntag · 3.–8. November 2026",
+      "dateNote": "Wochenplan vom 2. November · Sonntagsbraten ergänzt am 6. November.",
+      "recipes": [
+        {
+          "id": "2026-11-03-haehnchen-moehren",
+          "day": "Dienstag",
+          "date": "2026-11-03",
+          "name": "Hähnchen in Möhren-Rahmsoße mit Reis",
+          "time": "35–40 Minuten",
+          "servings": "ca. 3 Portionen",
+          "status": "complete",
+          "sourceStatus": "newly_created_from_approved_plan",
+          "ingredients": [
+            "350 g Hähnchenbrust",
+            "300 g Möhren",
+            "1 Zwiebel",
+            "200 ml Kochsahne",
+            "150 ml Gemüsebrühe",
+            "10 g Butter",
+            "1 EL Rapsöl",
+            "1 TL Paprikapulver edelsüß",
+            "Salz und Pfeffer nach Geschmack",
+            "250 g Reis, ungekocht",
+            "Wasser für den Reis nach Packungsangabe"
+          ],
+          "steps": [
+            [
+              "Vorbereiten · 5–7 Minuten",
+              "300 g Möhren schälen und in etwa 5 mm kleine Würfel oder sehr dünne halbe Scheiben schneiden. 1 Zwiebel fein würfeln. 350 g Hähnchenbrust auf einem separaten Brett in kleine mundgerechte Streifen schneiden."
+            ],
+            [
+              "Reis parallel aufsetzen",
+              "250 g Reis mit Wasser und etwas Salz nach Packungsanleitung garen. Die Wassermenge richtet sich nach der Reissorte. Auf niedriger Hitze mit Deckel garen, anschließend nach Packungsangabe ruhen lassen."
+            ],
+            [
+              "Hähnchen anbraten · 4–5 Minuten",
+              "1 EL Rapsöl in einer großen Pfanne bei Stufe 6 von 9 erhitzen. Hähnchenstreifen rundherum 4–5 Minuten leicht bräunen. Auf einen Teller geben; das Fleisch wird später in der Soße vollständig fertig gegart."
+            ],
+            [
+              "Möhren sehr weich dünsten · 12–15 Minuten",
+              "Hitze auf Stufe 4–5 von 9 reduzieren. 10 g Butter und die Zwiebel in die Pfanne geben und 2 Minuten glasig dünsten. Möhren und 150 ml Gemüsebrühe ergänzen. Mit Deckel 10–13 Minuten sanft dünsten, bis die kleinen Möhrenstücke sehr weich sind. Falls nötig etwas Wasser ergänzen und länger garen."
+            ],
+            [
+              "Rahmsoße und Hähnchen fertig garen · 5–7 Minuten",
+              "200 ml Kochsahne und 1 TL Paprikapulver unterrühren. Hähnchen samt Fleischsaft dazugeben. Bei Stufe 3–4 von 9 mindestens 5–7 Minuten sanft köcheln; das Fleisch muss vollständig durchgegart sein. Mit einem Küchenthermometer prüfen: mindestens 74 °C im Inneren. Bei Bedarf länger garen."
+            ],
+            [
+              "Abschmecken und servieren",
+              "Mild mit Salz und Pfeffer abschmecken. Zu dicke Soße mit etwas Wasser verdünnen, zu dünne kurz ohne Deckel einkochen. Reis auflockern und mit Hähnchen und reichlich Möhren-Rahmsoße servieren."
+            ]
+          ],
+          "missingFields": [],
+          "image": "assets/moehren-haehnchen.jpg"
+        },
+        {
+          "id": "2026-11-04-gnocchi-spinat",
+          "day": "Mittwoch",
+          "date": "2026-11-04",
+          "name": "Cremige Gnocchi-Pfanne mit Spinat",
+          "time": "25–30 Minuten",
+          "servings": "ca. 3 Portionen",
+          "status": "complete",
+          "sourceStatus": "newly_created_from_approved_plan",
+          "ingredients": [
+            "600 g Gnocchi",
+            "200 g TK-Blattspinat, ungewürzt",
+            "1 Zwiebel",
+            "1 Knoblauchzehe",
+            "200 ml Kochsahne",
+            "100 g Frischkäse natur",
+            "100 ml Gemüsebrühe",
+            "1 kleine Prise Muskatnuss",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "steps": [
+            [
+              "Spinat und Gemüse vorbereiten",
+              "200 g TK-Blattspinat nach Packungsangabe auftauen oder direkt zum Garen bereitstellen. Aufgetauten Blattspinat fein hacken, damit keine langen Blätter oder festen Stücke bleiben. 1 Zwiebel und 1 Knoblauchzehe sehr fein würfeln."
+            ],
+            [
+              "Zwiebel weich garen · 5–6 Minuten",
+              "Zwiebel mit 100 ml Gemüsebrühe in eine große tiefe Pfanne geben. Bei Stufe 4–5 von 9 mit Deckel 5–6 Minuten sanft garen, bis sie weich ist. Bei Bedarf etwas Wasser ergänzen. Knoblauch dazugeben und 1 Minute mitgaren."
+            ],
+            [
+              "Spinat vollständig garen",
+              "Spinat dazugeben und unter gelegentlichem Rühren vollständig erhitzen und weich garen. Die Mindestgarzeit und Zubereitungshinweise auf der TK-Packung beachten; gefrorene Portionen brauchen länger als aufgetaute. Bei Bedarf etwas Wasser ergänzen."
+            ],
+            [
+              "Cremige Soße anrühren · 2–3 Minuten",
+              "200 ml Kochsahne und 100 g Frischkäse dazugeben. Bei Stufe 3–4 von 9 unter Rühren erhitzen, bis sich der Frischkäse aufgelöst hat. Mit einer kleinen Prise Muskatnuss, Salz und Pfeffer mild würzen."
+            ],
+            [
+              "Gnocchi garen · nach Packungsangabe",
+              "600 g Gnocchi in der Soße bei niedriger bis mittlerer Hitze gar ziehen lassen, sofern die Packung das Garen direkt in einer Pfanne erlaubt; meist etwa 5–8 Minuten. Regelmäßig vorsichtig wenden und bei Bedarf etwas Wasser ergänzen. Gnocchi, die laut Packung zuvor in Wasser gekocht werden müssen, separat so zubereiten und anschließend in die Soße geben."
+            ],
+            [
+              "Servieren",
+              "Prüfen, ob die Gnocchi bis innen heiß und weich sind. Die Soße soll cremig bleiben und die Gnocchi gut umhüllen. Nochmals mild abschmecken und sofort servieren."
+            ]
+          ],
+          "missingFields": [],
+          "image": "assets/gnocchi-spinat.jpg"
+        },
+        {
+          "id": "2026-11-05-stampf-ruehrei",
+          "day": "Donnerstag",
+          "date": "2026-11-05",
+          "name": "Kartoffel-Möhren-Stampf mit Rührei",
+          "time": "30–35 Minuten",
+          "servings": "ca. 3 Portionen",
+          "status": "complete",
+          "sourceStatus": "newly_created_from_approved_plan",
+          "ingredients": [
+            "900 g mehligkochende Kartoffeln",
+            "400 g Möhren",
+            "6 Eier",
+            "150 ml Milch (100 ml Stampf, 50 ml Rührei)",
+            "30 g Butter (20 g Stampf, 10 g Rührei)",
+            "1 kleine Prise Muskatnuss",
+            "Salz und Pfeffer nach Geschmack",
+            "Wasser zum Kochen"
+          ],
+          "steps": [
+            [
+              "Gemüse vorbereiten · 7–10 Minuten",
+              "900 g Kartoffeln und 400 g Möhren schälen. Kartoffeln in etwa 2 cm große Stücke schneiden. Möhren kleiner schneiden, etwa 1 cm, damit beides gleichzeitig schön weich wird."
+            ],
+            [
+              "Sehr weich kochen · 18–22 Minuten",
+              "Kartoffeln und Möhren in einen großen Topf geben, knapp mit Wasser bedecken und leicht salzen. Aufkochen, dann bei mittlerer Hitze 18–22 Minuten sanft kochen. Beide Gemüsesorten müssen sich mühelos mit einer Gabel zerdrücken lassen; gegebenenfalls länger garen."
+            ],
+            [
+              "Rührei vorbereiten",
+              "6 Eier in einer Schüssel mit 50 ml Milch, wenig Salz und etwas Pfeffer verquirlen. 100 ml Milch für den Stampf separat sanft erwärmen, ohne sie kochen zu lassen."
+            ],
+            [
+              "Stampf zubereiten · 3–4 Minuten",
+              "Gemüse abgießen und 1 Minute ausdampfen lassen. 20 g Butter und zunächst einen Teil der 100 ml warmen Milch dazugeben. Mit einem Kartoffelstampfer weich zerdrücken und die übrige Milch nach Bedarf unterarbeiten. Mit einer kleinen Prise Muskatnuss und Salz abschmecken. Zugedeckt warm halten; keinen Pürierstab verwenden."
+            ],
+            [
+              "Rührei sanft stocken lassen · 5–7 Minuten",
+              "10 g Butter in einer beschichteten Pfanne bei niedriger bis mittlerer Hitze, etwa Stufe 3–4 von 9, schmelzen. Eiermasse hineingeben. Mit einem Pfannenwender langsam vom Rand zur Mitte schieben. Sanft garen, bis das Ei vollständig gestockt, aber noch weich ist; bei Bedarf etwas länger garen."
+            ],
+            [
+              "Anrichten",
+              "Kartoffel-Möhren-Stampf und Rührei nebeneinander auf Teller geben und direkt servieren. Kleine weiche Möhrenstückchen im Stampf dürfen bleiben."
+            ]
+          ],
+          "missingFields": [],
+          "image": "assets/stampf-ruehrei.jpg"
+        },
+        {
+          "id": "2026-11-06-hack-zucchini",
+          "day": "Freitag",
+          "date": "2026-11-06",
+          "name": "Nudeln mit milder Hackfleisch-Zucchini-Tomatensoße",
+          "time": "30–35 Minuten",
+          "servings": "ca. 3 Portionen",
+          "status": "complete",
+          "sourceStatus": "newly_created_from_approved_plan",
+          "ingredients": [
+            "300 g Nudeln",
+            "250 g Rinderhackfleisch",
+            "1 mittelgroße Zucchini",
+            "1 Zwiebel",
+            "1 Knoblauchzehe",
+            "500 g passierte Tomaten",
+            "1 EL Rapsöl",
+            "1 TL italienische Kräuter",
+            "½ TL Paprikapulver edelsüß",
+            "Salz und Pfeffer nach Geschmack",
+            "Wasser für die Nudeln; etwas Nudelwasser für die Soße"
+          ],
+          "steps": [
+            [
+              "Alles klein schneiden · 5 Minuten",
+              "1 Zwiebel und 1 Knoblauchzehe schälen und fein würfeln. Zucchini waschen und in höchstens 5 mm kleine Würfel schneiden oder grob raspeln. Einen großen Topf Nudelwasser aufsetzen."
+            ],
+            [
+              "Hackfleisch anbraten · 5–7 Minuten",
+              "1 EL Rapsöl in einer großen Pfanne bei Stufe 6 von 9 erhitzen. 250 g Rinderhackfleisch hineingeben und mit dem Pfannenwender fein zerteilen. Unter Wenden 5–7 Minuten kräftig anbraten."
+            ],
+            [
+              "Gemüse weich garen · 8–10 Minuten",
+              "Hitze auf Stufe 4–5 von 9 reduzieren. Zwiebel und Zucchini zum Hack geben und 3 Minuten mitgaren. Etwa 3 EL Wasser ergänzen, Deckel auflegen und 5–7 Minuten sanft dünsten, bis das Gemüse sehr weich ist. Knoblauch zuletzt 1 Minute mitgaren."
+            ],
+            [
+              "Tomatensoße köcheln · 10–12 Minuten",
+              "500 g passierte Tomaten, 1 TL italienische Kräuter und ½ TL Paprikapulver ergänzen. Mild mit Salz und Pfeffer würzen. Bei niedriger bis mittlerer Hitze 10–12 Minuten sanft köcheln und gelegentlich umrühren. Das Hackfleisch muss vollständig durchgegart sein."
+            ],
+            [
+              "Nudeln parallel kochen",
+              "300 g Nudeln in leicht gesalzenem Wasser nach Packungsangabe garen. Vor dem Abgießen eine Tasse Nudelwasser auffangen."
+            ],
+            [
+              "Vermengen und servieren",
+              "Nudeln mit der fertigen Soße vermischen. Bei Bedarf etwas Nudelwasser ergänzen, bis die Soße schön sämig ist. Nochmals mild abschmecken und servieren."
+            ]
+          ],
+          "missingFields": [],
+          "image": "assets/hack-zucchini.jpg"
+        },
+        {
+          "id": "2026-11-08-schweinenackenbraten",
+          "day": "Sonntag",
+          "date": "2026-11-08",
+          "name": "Schweinenackenbraten mit Klößen und Blaukraut",
+          "time": "ca. 3 Stunden, mit Reserve · ca. 30 Minuten aktive Arbeit",
+          "servings": "ca. 3 Portionen",
+          "status": "complete",
+          "sourceStatus": "newly_created_from_approved_plan",
+          "sourceNote": "Am 06.11.2026 neu ausgearbeitet und freigegeben. Einfacher Braten in der Glasauflaufform mit milder Bratensoße ohne Zwiebeln.",
+          "missingFields": [],
+          "ingredients": [
+            "800 g Schweinenacken am Stück, ohne Knochen und Schwarte",
+            "150 g Möhren",
+            "1 EL Rapsöl",
+            "1 EL Tomatenmark (ca. 15 g)",
+            "500 ml milde Gemüse- oder Fleischbrühe",
+            "½ TL Salz",
+            "½ TL Paprikapulver edelsüß",
+            "Etwas Pfeffer",
+            "2 TL Speisestärke",
+            "2 EL kaltes Wasser für die Stärke",
+            "6 mittelgroße, fertig geformte Kartoffelklöße aus dem Kühlregal",
+            "450–500 g Apfel-Blaukraut aus dem Glas",
+            "2 EL Wasser für das Blaukraut"
+          ],
+          "steps": [
+            [
+              "Ausstattung und Glasform prüfen",
+              "Bereitlegen: Pfanne, backofengeeignete und unbeschädigte Glasauflaufform, Alufolie, zwei Töpfe, Fleischthermometer, Zange, Holz- oder Silikonlöffel, Sieb und trockener Holz- oder Korkuntersetzer. Glasform bei Raumtemperatur verwenden. Heiße Form später auf den trockenen Untersetzer stellen, niemals auf eine Herdplatte. Keine kalte Flüssigkeit in die heiße Form gießen. Die Hinweise des Formenherstellers haben Vorrang. Insgesamt etwa 3 Stunden plus Reserve einplanen; die Dicke des Fleischstücks bestimmt die Garzeit."
+            ],
+            [
+              "Ofen und Zutaten vorbereiten · ca. 10 Minuten",
+              "Rost auf die zweite Schiene von unten setzen. Ofen auf 160 °C Ober-/Unterhitze vorheizen (übliches Symbol: zwei waagerechte Striche, oben und unten). 150 g Möhren schälen und klein würfeln. 800 g Schweinenacken mit Küchenpapier trocken tupfen und rundherum mit ½ TL Salz, ½ TL Paprikapulver edelsüß und etwas Pfeffer einreiben. Glasform stabil bereitstellen. Hände und Kontaktflächen nach Kontakt mit rohem Fleisch gründlich reinigen."
+            ],
+            [
+              "Fleisch anbraten · ca. 8 Minuten",
+              "1 EL Rapsöl in der Pfanne bei mittlerer bis hoher Hitze erhitzen, als Ausgangspunkt etwa Stufe 6 von 9. Das Öl soll heiß werden, aber nicht rauchen. Braten von den zwei großen Seiten jeweils 2–3 Minuten und von den übrigen Seiten jeweils etwa 1 Minute anbraten. Mit einer Zange wenden. Außen sollen braune Stellen entstehen; innen ist das Fleisch noch roh und gart erst im Ofen durch. Fleisch vorübergehend auf einen Teller legen."
+            ],
+            [
+              "Soßengrundlage zubereiten · ca. 5 Minuten, dann etwas abkühlen",
+              "Hitze auf etwa Stufe 4 von 9 reduzieren. Möhrenwürfel im Bratfett 3 Minuten anbraten. 1 EL Tomatenmark (ca. 15 g) dazugeben und 1 Minute unter Rühren mitrösten. Es darf dunkler werden, aber nicht schwarz. 500 ml Brühe vorsichtig angießen und die braunen Rückstände mit einem Holz- oder Silikonlöffel vom Pfannenboden lösen. Pfanne vom Herd nehmen und die Mischung bis handwarm abkühlen lassen. Möhren und Flüssigkeit in die zimmerwarme Glasform geben und den Braten hineinlegen."
+            ],
+            [
+              "Abdecken und Thermometer setzen",
+              "Form mit Alufolie gut abdecken; die Folie muss das Fleisch nicht berühren. Nur ein ausdrücklich ofenfestes Thermometer darf während des Garens im Ofen bleiben. Seine Spitze seitlich bis in die Mitte der dicksten Fleischstelle stecken, möglichst nicht in eine sichtbare Fettader. Ein reines Einstichthermometer bleibt außerhalb des Ofens und wird nur kurz zum Messen benutzt. Form auf den Rost der zweiten Schiene von unten stellen und bei 160 °C Ober-/Unterhitze garen."
+            ],
+            [
+              "Garzustand prüfen · ungefähr 2–3 Stunden Ofenzeit",
+              "Nach 90 Minuten erstmals messen, danach ungefähr alle 20 Minuten. Ziel: etwa 85–88 °C Kerntemperatur und zartes Fleisch. Die höhere Temperatur dient beim Schweinenacken der Zartheit. Eine Gabel soll leicht hinein- und wieder herausgehen. Ist das Fleisch noch deutlich fest, abgedeckt weitere 15–20 Minuten garen und erneut prüfen. Beim Öffnen der Folie auf heißen Dampf achten. Die Flüssigkeit darf nicht vollständig verdampfen. Zeitangaben sind Richtwerte; Thermometer und Zartheitsprobe entscheiden."
+            ],
+            [
+              "Klöße rechtzeitig starten · Packungsangabe beachten",
+              "Wenn der Braten ungefähr 80 °C Kerntemperatur erreicht hat, einen ausreichend großen Topf Wasser für 6 mittelgroße, fertig geformte Kartoffelklöße aufsetzen. Koch- und Ziehzeit der Packung beachten. Viele Klöße sollen in heißem Wasser nur ziehen, da sprudelndes Kochen sie zerfallen lassen kann. Die Packungsanleitung hat Vorrang."
+            ],
+            [
+              "Blaukraut erwärmen",
+              "450–500 g Apfel-Blaukraut aus dem Glas mit 2 EL Wasser in einen kleinen Topf geben. Zugedeckt auf niedriger bis mittlerer Stufe nach Packungsangabe erwärmen und gelegentlich umrühren. Parallel zu den Klößen zubereiten."
+            ],
+            [
+              "Braten ruhen lassen · 10 Minuten",
+              "Fertigen Braten aus dem Ofen nehmen. Heiße Glasform mit trockenen Topfhandschuhen auf den trockenen Untersetzer stellen. Braten auf ein Brett mit Saftrille legen, locker mit Folie abdecken und 10 Minuten ruhen lassen. In dieser Zeit die Soße fertigstellen."
+            ],
+            [
+              "Soße binden · während der Ruhezeit",
+              "Sud samt Möhren vorsichtig aus der Glasform in einen Topf gießen. Für eine glatte Soße durch ein Sieb geben und die weichen Möhren etwas ausdrücken. Sehr viel oben schwimmendes Fett mit einem Löffel abschöpfen. 2 TL Speisestärke mit 2 EL kaltem Wasser glatt rühren. Soße aufkochen, zunächst die Hälfte der Stärkemischung einrühren und 1 Minute köcheln lassen. Bei Bedarf den Rest portionsweise hinzufügen. Probieren und erst jetzt nachsalzen. Zu dick: esslöffelweise Wasser ergänzen. Zu dünn: etwas weitere Stärkemischung verwenden."
+            ],
+            [
+              "Aufschneiden und servieren",
+              "Falls vorhanden, Netz oder Küchengarn entfernen. Fleisch quer zur sichtbaren Faserrichtung in etwa 1 cm dicke Scheiben schneiden. Mit Klößen, Blaukraut und reichlich Soße anrichten. Beim ersten Braten sind Thermometer und Zartheitsprobe wichtiger als eine minutengenaue Garzeit."
+            ]
+          ],
+          "image": "assets/schweinenackenbraten.jpg"
+        }
+      ]
+    },
     {
       "version": "2026-10-28-import-2",
       "weekLabel": "Dienstag bis Freitag · 27.–30. Oktober 2026",
